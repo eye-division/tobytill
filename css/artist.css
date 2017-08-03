@@ -1,0 +1,389 @@
+/* Alun Ward, for Eye Gallery */
+/* alun@eyedivision.co.uk */
+
+html { 
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+
+#playercontainer {
+	padding:5px;
+	background-color:#ddd;
+}
+body {
+	position:relative;
+	font-family: tahoma, verdana, helvetica, arial, sans-serif;
+	font-size:1em;
+	line-height:2em;
+	margin:0px;
+	color:#333;
+	text-align:center;
+	height:100%;
+	padding:0px;
+	width:100%;
+	background-color:#ddd;
+	/* background: #FFF url('../images/bg.jpg') no-repeat scroll 0%;*/
+}
+
+#container {	
+	line-height:130%;
+	text-align:center;
+	margin:0px auto;
+	padding:0px;
+	width:900px;
+}
+
+#content {
+	clear: both;
+	/*padding-left:210px;	 */
+}
+.homepage {
+	text-align:center;
+	margin:2em auto;
+}
+#foot {
+
+}
+li, ul, ol {  
+	font-style: normal; 
+	font-weight: normal; 
+}
+a {  border:none; font-weight:bold; }
+a:link { color:#333; text-decoration: none; }
+a:visited { color:#666;  text-decoration: none;  }
+a:hover { color:#CCC;  text-decoration: none; }
+a:active { color:#999; text-decoration: none; }
+
+a.selected {
+	color:#000;
+}
+
+.homePage {
+	text-align:center;
+	padding:1em 5em;
+}
+/* styled header logo */
+#header {
+	height:63px; 
+	background-color:#ddd; 
+	color:#FFF;
+	padding:10px 0;
+	margin:0 auto;
+	display:block;
+}
+
+h1 a {
+	text-align:center;
+	display: block;	
+	width:650px;
+	height:63px;
+	padding:10px 0;
+	margin:0 auto;
+	background: transparent url("../images/logo400.gif") no-repeat top center;
+}
+h1 a:hover {
+	background: transparent url("../images/logo400.gif") no-repeat top center;
+	text-decoration: none;
+}
+#header a:link, #header a:visited, #header a:hover, #header a:active {
+	border: none;
+}
+
+h1	{
+	text-indent: -9999px;
+	border: none;
+	padding:0px;
+	margin:0px;
+	/*background: transparent url("/images/logo400.gif") no-repeat top center;	*/
+}
+
+h2, h3, strong {
+	color:#999;
+}
+#left {
+	float:left;
+	width:40%;
+	text-align:right;
+}
+
+#right {
+	margin-left:52%;
+	text-align:left;
+}
+#right .headerImg {
+	padding-top:300px;
+	margin-left:0px;
+	padding-left:0px;
+}
+/* end header */
+
+#page {
+	text-align:left;
+	font-size:0.9em;
+}
+#pageRight {
+	text-align:left;
+	font-size:0.9em;
+	margin-left:210px;
+}
+#homepage {
+	text-align:left;
+	font-size:1em;
+	color:#333;
+	padding:1em 5em;
+}
+/* top navigation - goes on right of header*/
+#topnav { 
+	font-size:small; 
+	padding:10px 0px; 
+	letter-spacing:0.1em;
+	text-align:center;
+	border-bottom:1px solid #999;
+	border-top:1px solid #999;
+}
+#topnav ul {
+	margin-left:40px;
+	padding:3px 0;
+}
+#topnav ul li {
+	list-style: none;
+	margin:0px 5px 5px 0px;
+	display:inline;
+}
+#topnav ul li a {
+	padding: 3px 0.5em;
+	margin-left: 0px;
+	background: #FFF;
+	text-decoration:none;
+}
+#topnav ul li a:link {
+	color:#000;
+}
+#topnav ul li a:visited {
+	color:#666;
+}
+#topnav ul li a:link:hover, #topnav ul li a:visited:hover {
+	color:#000;
+}
+#topnav ul li a#current {
+	background:white;
+	font-weight:bold;
+	color:#000;
+}
+
+/* end top navigation */
+/* sub nav */
+#subnav {
+	float:left;
+	width:200px;
+	padding-right:10px;
+	text-align:left;
+	font-size:0.9em;
+}
+
+#subnav ul {
+	margin-left:40px;
+	padding:3px 0;
+}
+#subnav ul li {
+	list-style: none;
+	margin:0px 0px 20px 0px;
+	
+}
+#subnav ul li a {
+	margin: 0px 0px 10px 0px;
+	background: #FFF;
+	text-decoration:none;
+	padding-bottom:10px;
+	border-bottom: 1px solid #CCC;
+}
+#subnav ul li a:link {
+	color:#000;
+}
+#subnav ul li a:visited {
+	color:#666;
+}
+#subnav ul li a:hover, #topnav ul li a:hover {
+	color:#999;
+}
+#subnav ul li a#current {
+	background:white;
+	font-weight:bold;
+	color:#000;
+}
+
+/* end subnav */
+
+.navLinks, #navLinks {
+	text-align:center;
+	color:#666666;
+	font-size:0.9em;
+	margin:0em 0em 2em;
+}
+b, strong { font-weight: 900; }
+
+
+
+.small { font-size: 10px; }
+
+#credits {
+	clear:both;
+	font-size:small;
+	padding:25px 0px;
+	letter-spacing:normal;
+	margin:0px auto;
+	width:900px;
+	height:91px;
+	/* background: transparent url("/images/footer.jpg") no-repeat scroll 0%; */
+}
+#credits A IMG, #credits A:link {
+	border:none;
+}
+
+.grey {
+	color:#666;
+}
+
+/* image layout */
+
+#images {
+	font-size:0.8em;
+	text-align:center;
+	color:#666;
+	margin:5px auto; 
+	width:100%;
+/*	width:50em; */
+}
+#images img, #randomImages img {
+	/* border:1px solid black;*/
+	padding:0px;
+}
+#images A:link, #images A:hover, #images A:visited {
+	border:none;
+	text-decoration:none;
+}
+#images A:link img, #images A:visited img {
+	/*border:1px solid black; */
+}
+#header A:link, #header A:hover, #header A:visited, #footer A:link, #footer A:hover {
+	border:none;
+	text-decoration:none;
+}
+/* .thumbs only used on main category page to display category images */
+.thumbs {
+	float:left;
+	margin:10px;
+}
+.categoryThumb {
+	display:block;
+	float:left;
+	width:33%;
+}
+.thumb {
+	font-size:0.8em;
+}
+.thumb IMG {
+	padding:10px;
+	border:none;
+	margin:10px;
+}
+.clear {
+	clear:both;
+}
+.required { 
+	color:#FFFFCC; 
+	font-weight:bold; 
+}
+.error {
+	color:#CC0000; 
+	background-color:#CCC;
+	font-weight:bold;
+}
+/* image tables */
+table.images {
+	margin:15px auto 5px;
+}
+table.images img {
+	margin:20px;
+}
+td {
+	text-align:center;
+	vertical-align:middle;
+}
+tr {
+	vertical-align:middle;
+}
+#address {
+	font-size:0.9em;
+	text-align:left;
+	color:#666666;
+	padding:1em 5em;
+}
+#bigPic {
+	margin:0.5em auto;
+	text-align:center;
+}
+#bigPic IMG {
+	/*border:1px solid black;*/
+}
+/* form css */
+form { 
+	/*font-size : 1em; */
+	text-align:left;
+	margin:25px auto;
+	padding:1em 5em;
+	font-size:0.9em;
+}
+
+form.contact {
+	padding-top:40px;
+}
+select {
+	/*width: 200px;*/
+	text-align: left;	
+}
+
+fieldset { 
+	padding : 10px;
+	margin: 0px;
+	border-color:#CCC;
+	border-style: solid;
+	border-width: 1px;
+} 
+
+legend {
+	color:#000;
+}
+form br {
+	clear: left;
+}
+
+label { 	
+	display : block; 
+	float: left;
+	width: 150px;
+	padding: 0px;
+	text-align:right;
+	margin : 5px 0px 0px; 
+}
+
+textarea { 
+	overflow: auto; 
+	border:#FF9900 1px solid;
+	background:#FFF;
+}
+input {
+	border:#FF9900 1px solid;
+	background:#FFF;
+}
+input:focus {
+	background:#FFFFCC;
+}
+textarea:focus {
+	background:#FFFFCC;
+}
+tbody tr:nth-child(even) td, tbody tr.even td {
+background: none;
+}
+/* end form stuff */
