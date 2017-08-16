@@ -36,6 +36,7 @@ permalink: /thumbs.php?cat=5.html
   })();
 
 </script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
 	<body>
     <a name="top"></a>
@@ -50,24 +51,23 @@ permalink: /thumbs.php?cat=5.html
 
       <fieldset>
 
-            <input type="hidden" name="_to" value="ttprints@gmail.com">
-            <input type="hidden" name="_cc" value="a.ward@eyedivision.com">
-            <input type="hidden" name="_subject" value="Web form">
-            <p>
-            <label for="name">Name:</label>
-            <input type="text" name="name">
-            </p>
-            <p>
-            <label for="_replyto">Email:</label>
-            <input type="text" name="_replyto">
-            </p>
-            <p>
-            <label>Message</label>
-            <textarea name="message"></textarea>
-            </p>
-            {% if site.recaptcha_site_key %}
-            <div class="g-recaptcha" data-sitekey="{{ site.recaptcha_site_key }}"></div>
-            {% endif %}
+      <input type="hidden" name="_to" value="a.ward@eyedivision.com">
+      <input type="hidden" name="_subject" value="Web form">
+      <p>
+      <label for="name">Name:</label>
+      <input type="text" name="name">
+      </p>
+      <p>
+      <label for="_replyto">Email:</label>
+      <input type="text" name="_replyto">
+      </p>
+      <p>
+      <label>Message</label>
+      <textarea name="message"></textarea>
+      </p>
+      {% if site.recaptcha_site_key %}
+      <div class="g-recaptcha" data-sitekey="{{ site.recaptcha_site_key }}"></div>
+      {% endif %}
         <p>
             <input type="submit" value="Send message">
             </p>
