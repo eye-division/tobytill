@@ -31,8 +31,8 @@ permalink: pretty
 
 # Image CDN
 imagecdn:
-  #staging: "http://ed-dev.imgix.net"
-  #production: "http://ed.imgix.net"
+  staging: "https://ed-tobiastill-dev.imgix.net" #http://just-skunk.cloudvent.net
+  production: "http://ed-tobiastill.imgix.net"
 
 # Collections Example
 collections:
