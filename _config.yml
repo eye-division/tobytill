@@ -1,13 +1,16 @@
-# External gems
-gems:
+# External gems - updated to plugins in jekyll v3.6
+plugins:
+ # - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
+  - jekyll-assets
+  - autoprefixer-rails
 
-exclude:
-  - "/vendor/"
+#exclude:
+#  - "/vendor/"
 
 # Site settings
 title: Tobias Till
-subtitle: Tobias Till Eye Gallery built on Bourbon and Neat
+subtitle:
 name: Tobias Till
 description: Tobias Till gallery site
 # Base URL of site (i.e. /blog). It should always start with a slash,
@@ -15,7 +18,7 @@ description: Tobias Till gallery site
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "http://www.tobias-till.co.uk"
+url: "https://www.tobias-till.co.uk"
 logo: "/siteicon.png"
 email: a.ward@eyedivision.com
 
@@ -31,28 +34,28 @@ imagecdn:
   #staging: "http://ed-dev.imgix.net"
   #production: "http://ed.imgix.net"
 
-# Collections
+# Collections Example
 collections:
-#     projects:
-#         output: true
-#         permalink: /projects/:path/
-
+    gallery:
+        output: true
+        permalink: /gallery/:path/
+        _hide_content: true
 
 # Defaults Example
 defaults:
-#     -
-#         scope:
-#             path: ""
-#             type: "projects"
-#         values:
-#             layout: "project"
+    -
+        scope:
+            path: ""
+            type: "gallery"
+        values:
+            layout: "gallery"
 
 
 # Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+ga_tracking_id: "UA-16735011-2"
 
 # Google Recaptcha for contact form
-recaptcha_site_key: 6Lf8pSsUAAAAAJSRMhLIgCmP7urOtuPSIPi-hAMb
+recaptcha_site_key: "6Lf8pSsUAAAAAJSRMhLIgCmP7urOtuPSIPi-hAMb"
 
 # Social icons and sharing options
 #

@@ -1,8 +1,27 @@
-- title: "Posts"
-  href: "/posts/"
-  
-- title: "Projects"
-  href: "/projects/"
-  
-- title: "About"
-  href: "/about/"
+- title: "Home"
+  href: "/"
+
+- title: "Inferno"
+  href: "/gallery/inferno/"
+
+- title: "London A-Z"
+  href: "/gallery/london-a-z/"
+
+- title: "Oranges & Lemons"
+  href: "/gallery/oranges-and-lemons/"
+
+- title: "Prints"
+  href: "/gallery/prints/"
+
+- title: "Older prints"
+  href: "/gallery/older-prints/"
+
+- title: "Biography"
+  href: "/biography/"
+
+- title: "News"
+  href: "/news/"
+
+- title: "Contact"
+  href: "/contact/"
+
