@@ -9,11 +9,9 @@ permalink: /gallery/older-prints/
 archive: false
 display_title: true
 main_image_path: /assets/images/43ed08821aed1.jpg
-display_image: false
+main_image_caption: "The Bull - 60 x 80cm"
+display_image: true
 images:
-  - image_path: "/assets/images/43ed08821aed1.jpg"
-    image_title: "The Bull"
-    image_description: "60 x 80cm"
   - image_path: "/assets/images/43e67f483ee2d.jpg"
     image_title: "North End Road Market"
     image_description: "45 x 80cm"

@@ -13,11 +13,10 @@ permalink: /gallery/inferno/
 archive: false
 display_title: true
 main_image_path: /assets/images/5908f2e8b190f.jpg
+main_image_caption: "Inferno - 180 x 130.5cm"
 display_image: true
 images:
-  - image_path: /assets/images/5908f2e8b190f.jpg
-    image_title: Inferno
-    image_description: 180 x 130.5cm
+
   - image_path: /assets/images/5908f513b6ab6.jpg
     image_title: Inferno detail 2
     image_description:
