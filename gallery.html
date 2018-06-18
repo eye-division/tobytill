@@ -28,7 +28,7 @@ _comments:
 
   {% for item in sorted %}
 
-       <div class="gallery-box{% cycle '', ' last' %}">
+       <div class="gallery--box{% cycle '', ' last' %}">
 
             <a href="{{ item.permalink }}" title="{{ item.title }}">
   	          {% include img.html src=item.main_image_path width=1200 max-h=400 fit=clip alt=item.title %}

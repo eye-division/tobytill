@@ -17,7 +17,7 @@ layout: default
       {% for image in page.images %}
 
         {% if image.image_path %}
-        <div class="gallery-box {% cycle 'alpha', '', 'last' %}">
+        <div class="gallery--box {% cycle 'alpha', '', 'last' %}">
         {% include img.html src=image.image_path alt=image.description %}
         <caption>{{ image.image_title }}</caption>
       </div>
