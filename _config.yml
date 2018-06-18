@@ -20,7 +20,7 @@ baseurl: ""
 # the base hostname & protocol for your site
 url: "https://www.tobias-till.co.uk"
 logo: "/siteicon.png"
-email: "toby.till@winchester-house.org"
+email: "ttprints@gmail.com"
 
 # Build settings
 markdown: kramdown
