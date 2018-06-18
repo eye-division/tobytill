@@ -1,9 +1,10 @@
 # External gems - updated to plugins in jekyll v3.6
 plugins:
  # - jekyll-archives # Sorry, not GitHub pages friendly!
-  - jekyll-sitemap
  # - jekyll-assets
  # - autoprefixer-rails
+   - jekyll-seo-tag
+   - jekyll-sitemap
 
 #exclude:
 #  - "/vendor/"
