@@ -75,14 +75,14 @@ recaptcha_site_key: "6Lf8pSsUAAAAAJSRMhLIgCmP7urOtuPSIPi-hAMb"
 #     share: true                           # Include in the "Share" section of posts
 social:
   - name: Twitter
-    icon: twitter
+    icon: icon-twitter_sign
     username:
     url:
     desc: Follow us on Twitter
     share: true
 
   - name: Facebook
-    icon: facebook
+    icon: icon-facebook_sign
     username:
     url:
     desc: Like us on Facebook
@@ -95,11 +95,11 @@ social:
     desc: Fork us on GitHub
     share: false
 
-  - name: LinkedIn
-    icon: linkedin
-    username:
-    url:
-    desc: Connect with us on LinkedIn
+  - name: linkedin
+    icon: icon-linkedin_sign
+    username: 
+    url: 
+    desc: Connect with me on LinkedIn
     share: true
 
   - name: YouTube
@@ -110,14 +110,14 @@ social:
     share: false
 
   - name: Instagram
-    icon: instagram
+    icon: icon-instagram
     username:
     url:
     desc: Follow me on Instagram
     share: false
 
   - name: Pinterest
-    icon: pinterest
+    icon: icon-pinterest
     username:
     url:
     desc: Follow me on Pinterest

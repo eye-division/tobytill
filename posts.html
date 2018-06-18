@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "News"
-main_image_path:
+main_image_path: "/assets/images/train-web-larger.jpg"
 image_caption:
 permalink: /news/
 _options:
@@ -20,27 +20,33 @@ _options:
 
   <section class="blog">
 
-      {% for post in site.posts limit: 4 %}
-        <a href="{{ post.url | prepend: site.baseurl }}"><h4>{{ post.title }}</h4></a>
+         <ul class="posts--list">
 
-        {% if post.main_image_path %}
-          <figure class="featured--col">
-            <a href="{{ post.url | prepend: site.baseurl }}">
-            {% assign alt_text = post.title %}
-            {% if post.image_caption %} {% assign alt_text = post.image_caption %} {% endif %}
-            {% include img.html src=post.main_image_path width=200 alt=alt_text %}
-            </a>
-          </figure>
-        {% endif %}
+      {% for post in site.posts %}
 
-        {% if post.main_image_path %}<p class="with--feature">{% else %}<p>{% endif %}
-        {{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url | prepend: site.baseurl }}">read more</a></p>
-        <div class="post-meta">
-          <!-- <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div> -->
-          <!-- Editor Link -->
-          <a href="cloudcannon:collections/{{ post.path }}" class="editor-link">Edit post</a>
-        </div>
-        <p></p>
+        <li class="post--inlist">
+
+          <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}" class="post--image">
+            {% if post.main_image_path %}
+                {% include img.html src=post.main_image_path max-w=400 %}
+            {% else %}
+                {% include img.html src=site.placeholder_image width=150 %}
+            {% endif %}
+          </a>
+
+          <div class="post--caption">
+              <h3>{{ post.title }}</h3>
+              <p>{{ post.excerpt | markdownify }}
+              <a href="{{ post.url }}" title="{{ post.title }}">Read more&nbsp;&raquo;</a></p>
+            <div class="post--meta">
+              <div class="post--date">{{ post.date | date: "%B %Y" }}</div>
+              <!-- Editor Link -->
+              <a href="cloudcannon:collections/{{ post.path }}" class="editor-link">Edit post</a>
+            </div>
+          </div>
+
         </li>
+
       {% endfor %}
+    </ul>
   </section>
