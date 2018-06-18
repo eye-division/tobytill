@@ -27,12 +27,13 @@ markdown: kramdown
 # paginate: 5
 # paginate_path: "/page:num/"
 # inter_post_navigation: false
+highlightjs_theme: "monokai-sublime"
 permalink: pretty
 
 # Image CDN
 imagecdn:
   staging: "https://ed-tobiastill-dev.imgix.net" #http://just-skunk.cloudvent.net
-  production: "http://ed-tobiastill.imgix.net"
+  production: "https://ed-tobiastill.imgix.net"
 
 # Collections Example
 collections:
