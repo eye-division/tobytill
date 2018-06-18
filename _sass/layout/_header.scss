@@ -30,6 +30,7 @@
     color: $medium-gray;
     text-transform: uppercase;
     text-decoration: none;
+    margin-top: 0;
     margin-bottom: 0;
     font-size: modular-scale(2);
     @include grid-media ($small) {

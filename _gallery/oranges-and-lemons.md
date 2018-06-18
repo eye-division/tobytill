@@ -8,12 +8,10 @@ _gallery_date: 2016-05-01 00:00:00
 permalink: /gallery/oranges-and-lemons/
 archive: false
 display_title: true
-main_image_path: /assets/images/52d46f60d6ef4.jpg
-display_image: false
+main_image_path: "/assets/images/52d46f60d6ef4.jpg"
+main_image_caption: "Oranges and Lemons - 225 x 107cm"
+display_image: true
 images:
-  - image_path: /assets/images/52d46f60d6ef4.jpg
-    image_title: Oranges and Lemons
-    image_description: 225 x 107cm
   - image_path: /assets/images/52d470d24b8a1.jpg
     image_title: Oranges and Lemons detail 1
     image_description:

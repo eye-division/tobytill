@@ -20,7 +20,12 @@
         }
     }
 }
-
+.gallery--feature {
+  // featured image on gallery page
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 1em;
+}
 .gallery--list {
     /// make it a flexbox so items can be aligned vertically
     /*@include display(flex);
@@ -34,7 +39,7 @@
 
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 
 
     a {

@@ -1,9 +1,9 @@
 // Typography
 // Google Fonts
-@import url(//fonts.googleapis.com/css?family=Stardos+Stencil:400,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
-$base-font-family: ('Open Sans', 'Helvetica Neue', 'Helvetica', 'verdana', 'Arial', sans-serif);
+@import url(//fonts.googleapis.com/css?family=Stardos+Stencil:400,700|Muli);
+$base-font-family: ('Muli', 'Century Gothic', 'verdana', 'Arial', sans-serif);
 $heading-font-family: $base-font-family;
-$subheading-font-family: ('Open Sans', 'Helvetica Neue', 'Helvetica', 'verdana', 'Arial', sans-serif);
+$subheading-font-family: ('Muli', 'Century Gothic', 'verdana', 'Arial', sans-serif);
 $site-title-font-family: ('Stardos Stencil', cursive);
 
 // Line height
@@ -108,7 +108,7 @@ $navigation-height: 30px;
 $navigation-submenu-padding: 1em;
 $navigation-submenu-width: 15em;
 
-$navigation-background: $light-gray;
+$navigation-background: $white;
 $navigation-color: $dark-gray;
 $navigation-color-hover: $black;
 $navigation-active-link-color: $black;
