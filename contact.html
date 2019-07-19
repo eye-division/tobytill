@@ -3,60 +3,71 @@ layout: page
 title: Contact
 permalink: /contact/
 main_image_path:
-image_caption:
+main_image_caption:
 frontpage: false
 homepage_description_markdown:
 frontpagetitle:
-images:
-  - image_path:
-    image_title: ""
-    image_description:
+show_form: true
 _options:
-  main_image_path:
+  layout:
+    hidden: true
+  permalink:
+    hidden: true
+  image_path:
+    uploads_dir: "assets/images/:year"
     width: 1200
     height: 1200
-    resize_style: "contain"
-    mime_type: "image/jpeg"
+    resize_style: contain
+    mime_type: image/jpeg
+  main_image_path:
+    uploads_dir: "assets/images/:year"
+    width: 1200
+    height: 1200
+    resize_style: contain
+    mime_type: image/jpeg
+  content:
+    uploads_dir: "assets/:year"
 _comments:
   title: Page title
-  permalink: Be careful editing this
   main_image_path: Image used to represent your page
-  archive: Not used yet!
+  show_form: Do you want to show a contact form?
   frontpage: Show this page on the homepage
   homepage_description_markdown: Text used on homepage if shown
   frontpagetitle: Alternative title for home page use
-  images: Add and edit images here
 ---
   <div class="editable">
 
   </div>
 
-      <h4>Send an email</h4>
+{% if page.show_form %}
+    <form action="/thanks/" method="post">
 
-      <form action="/thanks/" method="post">
+      <legend>Send email</legend>
 
       <fieldset>
-        <input type="text" name="_gotcha" style="display:none" />
-        <input type="hidden" name="_to" value="ttprints@gmail.com">
-        <input type="hidden" name="_subject" value="Web form">
-        <p>
-        <label for="name">Name:</label>
-        <input type="text" name="name">
-        </p>
-        <p>
-        <label for="_replyto">Email:</label>
-        <input type="email" name="_replyto">
-        </p>
-        <p>
-        <label>Message</label>
-        <textarea name="message"></textarea>
-        </p>
-        {% if site.recaptcha_site_key %}
-              <div class="g-recaptcha" data-sitekey="{{ site.recaptcha_site_key }}"></div>
-        {% endif %}
-        <p>
-          <input type="submit" value="Send message">
-        </p>
-      </fieldset>
+      <input type="hidden" name="_to" value="ttprints@gmail.com">
+      <input type="hidden" name="_subject" value="Web form">
+      <p><label for="name">Name:</label>
+      <input type="text" name="name" id="name">
+      </p>
+      <p>
+      <label for="_replyto">Email:</label>
+      <input type="email" name="_replyto" id="_replyto">
+      </p>
+      <p>
+     <label for="message">Message</label>
+      <textarea name="message" id="message"></textarea>
+      </p>
+      {% if site.recaptcha_site_key and jekyll.environment == 'production' %}
+        <div class="g-recaptcha" data-sitekey="{{ site.recaptcha_site_key }}"></div>
+      {% endif %}
 
-      </form>
+      <p>
+        <input type="submit" value="Send message">
+      </p>
+
+    </fieldset>
+
+  </form>
+
+{% endif %}

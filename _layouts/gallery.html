@@ -4,47 +4,88 @@ layout: default
 
 <div class="page">
 
-  <header>
-    <section>
-      <h1>{{ page.title }}</h1>
-    </section>
+  {% if page.display_title %}
+  <header class="page--header">
+    <h1 class="page--title text-center">{{ page.title }}</h1>
   </header>
+  {% endif %}
 
   <article>
 
     {% if page.main_image_path and page.display_image %}
+
       <figure class="gallery--feature">
       {% assign alt_text = page.title %}
+
       {% if page.main_image_caption %} {% assign alt_text = page.main_image_caption %} {% endif %}
-        <a href="{% include imgpath.html src=page.main_image_path max-w=1280 %}" class="galleryphoto" data-lightbox="gallery" data-title="{{ page.main_image_caption }}">
-          {% include img.html src=page.main_image_path alt=alt_text %}
-        </a>
-      <figcaption>{{ alt_text }}</figcaption>
+
+      <a href="{% include imgpath.html src=page.main_image_path %}" class="galleryphoto" data-lightbox="gallery" data-title="{{ page.main_image_caption }}">
+
+        {% include img.html src=page.main_image_path alt=alt_text %}
+
+      </a>
+
+      {% if page.main_image_caption %}
+        <figcaption>{{ alt_text }}</figcaption>
+      {% endif %}
+
       </figure>
+
     {% endif %}
 
     {% if page.images[0].image_path %}
+
     <section class="gallery--list">
-      {% for image in page.images %}
-        {% if image.image_path %}
-        <div class="gallery--box {% cycle 'alpha', '', 'last' %}">
-          <a href="{% include imgpath.html src=image.image_path max-w=1280 %}" class="galleryphoto" data-lightbox="gallery" data-title="{{ image.image_title }} - {{ image.image_description }}">
-            {% include img.html src=image.image_path width=600 fit=clip alt=image.image_title %}
-          </a>
-          {% if page.display_title %}
-            <caption>{{ image.image_title }}</caption>
-          {% endif %}
-        </div>
+
+      {% for thisimage in page.images %}
+
+        {% assign image = site.default_gallery_image %}
+        {% if thisimage.image_path %}
+          {% assign image = thisimage.image_path %}
         {% endif %}
+
+          <div class="gallery--box">
+
+            <a href="{% include imgpath.html src=image %}" class="gallery--link" data-lightbox="gallery" data-title="{{ thisimage.image_title }}{% if thisimage.image_description %} - {{ thisimage.image_description }}{% endif %}">
+
+              {% if page.thumb_crop %}
+
+                <!-- cropped square images -->
+                {% include img.html src=image width=200 height=200 fit=crop alt=thisimage.image_title %}
+                <!-- end cropped square -->
+
+              {% else %}
+
+                <!-- full format images -->
+                {% include img.html src=image width=400 fit=clip alt=thisimage.image_title %}
+                 <!-- end format images -->
+               {% endif %}
+
+               {% if page.display_thumb_title %}
+                  <figcaption class="gallery--caption">{{ thisimage.image_title }}</figcaption>
+                {% endif %}
+
+            </a>
+
+
+
+          </div>
+
+
       {% endfor %}
+
     </section>
+
     {% endif %}
 
-    {% if page.description_markdown %}
-    <section class="main-content">
-      {{ page.description_markdown | markdownify }}
+    <section class="main--content">
+
+      {% if content %}
+
+        {{ content }}
+
+      {% endif %}
     </section>
-    {% endif %}
 
     {% if page.videos %}
 

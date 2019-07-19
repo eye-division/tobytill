@@ -3,12 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  {% if site.name %}
-  <meta name="author" content="{{ site.name }}">
-  <meta name="copyright" content="&copy; {{ site.name }} {{ site.time | date: '%Y' }}">
-  {% endif %}
-  {% if site.ga_tracking_id and jekyll.environment == "production" %}
+  {% seo %}
+
+  {% if site.ga_tracking_id and jekyll.environment == 'production' %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking_id }}"></script>
   <script>
@@ -47,18 +44,6 @@
   <meta name="msapplication-TileImage" content="{{ "/assets/icons/ms-icon-144x144.png" | prepend: site.baseurl }}">
   <meta name="theme-color" content="#ffffff">
 
-  {% if site.protocols.twitter_image %}
-  <!-- Twitter: card tags -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.cover %}{{ page.cover | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.protocols.twitter_image | prepend: site.baseurl | prepend: site.url }}{% endif %}">
-  <meta name="twitter:url" content="{{ site.url }}">
-  {% endif %}
-
- 
-
-  {% include svg/symbol-defs.svg %}
 
   <!-- Site styles -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">

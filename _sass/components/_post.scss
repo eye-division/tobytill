@@ -1,35 +1,47 @@
-// -----------------------------------------------------------------------------
-// This file contains global styles for posts
-// -----------------------------------------------------------------------------
 
 .posts--list {
-    @extend %default-ul !optional;
-    //@include grid-container;
-    //@include grid-visual;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
 }
 
 .post--inlist {
     border-bottom: 1px solid $action-color;
     //padding: modular-scale(-4);
     padding: 1em 0;
-    @include grid-container;
-}
-.post--columns {
-    @include grid-media($small) { // half page width on 488px and above
-        @include grid-column(2);
+    @include grid-media($large) {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
     }
-}
-.post--caption {
-    @include grid-media($small) { // half page width on 488px and above
-        @include grid-column(3);
-    }
+    /*@supports (display: grid) {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 1rem;
+    }*/
 }
 .post--image {
-    @include grid-media($small) { // half page width on 488px and above
-        @include grid-column(1);
+    @include grid-media($large) {
+      flex: 1 100%;
     }
+
+}
+.post--content { // position right with neat
+    @include grid-media($large) {
+      padding-left: 1em;
+      flex: 1 100%;
+    }
+
 }
 
+.post--date {
+  font-style: italic;
+
+}
+.post--rss {
+
+}
 .pagination {
     padding-top: 2em;
     text-align: center;
@@ -41,7 +53,9 @@
 .link--share {
  text-decoration: none;
 }
+
 ///   Full Posts
+
 .post--header-container {
     .scrim {
         padding: 2em 1em 1em 1em;
@@ -50,36 +64,28 @@
 .post--meta {
     padding-bottom: 1em;
 }
-.post--content {
-    padding: 1em 0;
+.post--readmore {
+  color: $action-color;
+  &:hover, &:active {
+    color: $action-hover-color;
+  }
+}
+.post--header {
+  padding-bottom: 1.5em;
 }
 
-.post {
-  
-  ul {
-      margin-bottom: 1em;
-  }
-  
-  .tags {
-      font-size: 0.9em;
-  }
-  .rss {
-      margin: 1em 0 0 0;
-      @include grid-column(12);
-      @include grid-media ($small) {
-          margin: 1em 0;
-          @include grid-column(2);
-      }
-  }
-  
-  .disqus {
-      @include grid-column(12);
-  }
-
-}
 .post--title {
   margin-bottom: 0.2em;
+  text-decoration: none;
+  //color: $action-color;
 }
+
+.post--related {
+  margin-bottom: 1em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid $action-color;
+}
+
 .post--navigation {
     font-size: 0.9em;
     display: block;
@@ -101,12 +107,6 @@
 .post--share {
     font-weight: bold;
     margin: 0 0 1em 0;
-    @include grid-column(12);
-    @include grid-media ($small) {
-        @include grid-column(2);
-        margin: 1em 0;
-        text-align: right;
-    }
     a {
         width: 1em;
         padding: 0 0.25em;

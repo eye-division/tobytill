@@ -1,14 +1,6 @@
-/// Editor link
+@charset "utf-8";
 
-.editor-link {
-  display: none;
-}
-
-.cms-editor-active .editor-link {
-  display: block;
-}
-
-/// used in editor.scss for CloudCannon editing interface
+/// https://docs.cloudcannon.com/editing/options/
 
 p.callout { /* Can be applied to blocks of content */
   margin: 10px;
@@ -16,7 +8,6 @@ p.callout { /* Can be applied to blocks of content */
   border: 1px solid #000;
   background-color: #eee;
 }
-
 
 .center-this-text { /* Excluded from style dropdown, used as center class described below */
   text-align: center;

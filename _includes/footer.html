@@ -1,16 +1,16 @@
-<footer class="site-footer">
+<footer class="site--footer">
 
-  <div class="wrapper">
+  <div class="footer--wrapper">
 
-    <div class="site-contact">
+    <div class="site--contact">
 
-      <ul class="social-media-list">
+      <ul class="social-media-list list--horizontal">
 
         {% for social in site.social %}
           {% if social.url != null %}
-          <li class="list--horizontal">
+          <li class="">
             <a href="{{ social.url }}" title="{{ social.desc }}">
-              <svg class="icon {{ social.icon }}"><use xlink:href="#{{ social.icon }}" /></svg>
+              <svg class="icon {{ social.icon }}" role="img"><use xlink:href="#{{ social.icon }}" /></svg>
             </a>
           </li>
           {% endif %}
@@ -21,9 +21,9 @@
     </div>
 
 
-    <div class="site-signature">
+    <div class="site--signature">
       <p class="text">&copy; All work is copyright the artist, no reproduction without permission.<br />
-      <a href="https://www.eyedivision.com">{% include img.html src="/assets/eyegallery-box-trans.png" alt="Eye Division site" %}</a><br />site by <a href="https://www.eyedivision.com">Eye Division</a></p>
+      <a href="https://eyedivision.com">{% include img.html src="/assets/eyegallery-box-trans.png" alt="Eye Division site" %}</a><br />site by <a href="https://eyedivision.com">Eye Division</a></p>
     </div>
 
 
@@ -32,7 +32,7 @@
 </footer>
 
 <!-- Scripts -->
-{% if site.recaptcha_site_key %}
+{% if site.recaptcha_site_key and jekyll.environment == 'production' %}
 <script src="//www.google.com/recaptcha/api.js" async defer></script>
 {% endif %}
 <script defer src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>

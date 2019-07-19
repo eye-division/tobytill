@@ -1,63 +1,57 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the navigation
-// -----------------------------------------------------------------------------
 
 .navigation {
-  margin: 0;
-  @include grid-container;
-  //@include grid-visual;
-  padding: 1em 1em 0;
-  z-index: 99; // to cover over flexslider
-  background-color: $navigation-background;
+    margin: 0;
+    padding: 1em 1em 0;
+    background-color: $white;
+    z-index: 99; // to cover over flexslider
 }
 /// Nav menu
-.navigation-wrapper {
-  position: relative;
+.navigation--wrapper {
+    position: relative;
+    background-color: $white;
 }
 
 /// small view
-.navigation-menu-button {
-  display: block;
-  text-align: right;
-  margin: 0;
-  font-size: 1.5em;
-  padding-top: 0.5em;
-  color: $white;
-  text-decoration: none;
-  .icon-menu {
-      fill: $navigation-color;
-  }
-  &:link {
-      color: $navigation-color;
-      text-decoration: none;
-  }
-  &:hover, &:active {
-      text-decoration: none;
-      color: $navigation-color-hover;
-      /// menu icon
-      .icon-menu {
-          fill : $navigation-color-hover;
-      }
-  }
-  @include grid-media ($small) {
-      display: none;
-  }
+.navigation--menu-button {
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+    //padding-top: 0.5em;
+    color: $navigation-color;
+    text-decoration: none;
+    .icon-menu {
+        fill : $navigation-color;
+    }
+    &:link {
+        color: $navigation-color;
+        text-decoration: none;
+    }
+    &:hover, &:active {
+        text-decoration: none;
+        color: tint($navigation-color,20%);
+        /// menu icon
+        .icon-menu {
+            fill : tint($navigation-color,20%);
+        }
+    }
+    @include grid-media ($small) {
+        display: none;
+    }
 }
-
-.menu-title {
+.menu--title {
     font-size: 0.9em;
     font-weight: 400;
 }
 
 nav {
-    float: right;
     @include grid-media ($small) {
-        float: none;
-        line-height: 1.5em;
+        //float: none;
+        //line-height: 1.5em;
     }
 }
 
-.navigation-menu {
+.navigation--menu {
     clear: both;
     text-align: center;
     display: none;
@@ -65,36 +59,38 @@ nav {
     overflow: visible;
     padding: 0;
     width: 100%;
-    @include grid-media ($small) {
-        display: block;
-        margin: 0;
-        padding: 0;
-    }
     &.show {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+    @include grid-media ($small) {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center; // space-around;
+    }
+
 }
 
 /// Nav items
 
-.nav-link {
+.nav--link {
     display: block;
-    text-align: right;
     width: 100%;
     padding: 0.25em 0;
-    font-size: modular-scale(-1);
     @include grid-media ($small) {
         background: transparent;
-        display: inline-block;
+        display: inline;
         text-decoration: none;
         width: auto;
     }
     a {
+        text-decoration: none;
         color: $navigation-color;
         display: inline-block;
-        text-decoration: none;
         @include grid-media ($small) {
-            padding-right: 1em;
+            padding-right: 1.5em;
         }
         &:hover {
             color: $navigation-color-hover;
@@ -107,16 +103,38 @@ nav {
             padding-right: 1em;
         }
     }
-}
-.nav-link.active,
-.active {
-    a {
-        color: $navigation-active-link-color;
+    &.active a {
+        a {
+            color: $action-hover-color
+        }
     }
 }
 
-.show-menu {
+.navigation--social-menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center; // space-around;
+}
+.nav--social-media-link {
+    flex: 1 1 0;
+    @include grid-media ($small) {
+        flex: 0 1 auto;
+    }
+}
+
+li.active {
+    a {
+        color: $action-hover-color
+    }
+}
+
+.show--menu {
   display: block;
 }
 
-// Inspired by code by www.HUSAMUI.com
+/// layout things
+
+
+
+/// grid css navigation--menu ?? not required really

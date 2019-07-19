@@ -3,12 +3,15 @@ title: "Prints"
 order: 4
 description_markdown: 
 homepage_description_markdown: 
-_gallery_date:
+gallery_date: 2016-05-01 00:00:00
 frontpage: true
+frontpagetitle: "Prints"
 permalink: /gallery/prints/
 display_title: true
 archive: false
 main_image_path: "/assets/images/4c61772903aba.jpg"
+thumb_crop: true
+display_thumb_title: true
 display_image: false
 images:
   - image_path: "/assets/images/4c61772903aba.jpg"
@@ -31,25 +34,32 @@ images:
     image_description: "139 x 38cm"
 _options:
   image_path:
+    uploads_dir: "assets/images/:year"
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg
   main_image_path:
+    uploads_dir: "assets/images/:year"
     width: 1200
-    height: 800
+    height: 1200
     resize_style: contain
     mime_type: image/jpeg
+  content:
+    uploads_dir: "assets/:year"
 _comments:
   title: Gallery title
   order: Manually order the galleries
-  permalink: Be careful editing this
-  main_image_path: Featured image for your gallery
-  display_image: Show featured image at top of page
+  permalink: Edit the web address here - letters and hyphen only
+  display_image: Show featured image at the top of the gallery
+  display_title: Show the title at the top of the gallery
+  display_thumb_title: Show titles with image thumbnails 
+  main_image_path: Image used to represent your gallery
   images: Add and edit your gallery images here
-  image_description: Might only be shown in the close up of an image
-  display_title: Show image titles on page
-  archive: Not used yet!
+  image_description: Usually only shown in the image close up
+  thumb_crop: Crop thumbnail images to a consistent size
+  archive: Hide gallery from public view
   frontpage: Show this gallery on the homepage
+  frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---

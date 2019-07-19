@@ -1,10 +1,7 @@
-// -----------------------------------------------------------------------------
-// This file contains styles for gallery elements
-// -----------------------------------------------------------------------------
 
-/// 100% Gallery blocks
+/// 100% width Gallery blocks
 .gallery--cover {
-    margin: 0 auto 1em auto;
+    margin: 0 auto 2em auto;
     max-width: 1200px;
     a {
         color: $action-color;
@@ -13,7 +10,7 @@
         &:focus,
         &:hover {
             text-decoration: none;
-            color: $highlight-color;
+            color: darken($highlight-color,10%);
             .gallery {
                 background: rgba(255,255,255,1);
             }
@@ -26,21 +23,22 @@
   text-align: center;
   padding-bottom: 1em;
 }
-
+.gallery--link {
+    text-decoration: none;
+}
 .gallery--list {
+
     /// make it a flexbox so items can be aligned vertically
-    /*@include display(flex);
-    @include align-items(flex-start);
-    @include flex-direction(row);
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 
-    // align-items: flex-end; // align bottom
-    @include flex-wrap(wrap);*/
-
-    // now, woah there, make it a grid like it's 2017
-
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    // now grid it -- is this really necessary?
+    /*@supports (display: grid) {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }*/
 
 
     a {
@@ -62,7 +60,7 @@
         &:focus,
         &:hover {
             text-decoration: none;
-            color: shade($action-color, 20%);
+            color: darken($action-color, 20%);
             h3 {
                 //color: $camouflage;
             }
@@ -70,46 +68,24 @@
     }
 }
 .gallery--front {
-    padding: 0 1em 1em;
-    background: rgba(255,255,255,0.8);
+    padding: 0 1em 2em;
+    background: rgba(255, 255, 255, 0.9);
 }
 
-.gallery--box,
-.gallery--box-large {
-    padding-bottom: 1em;
+.gallery--header {
+    padding: 1em 0;
+}
+.gallery--box {
+
+    @include grid-media ($small) {
+        flex: 0 1 auto;
+    }
+    margin: 1em;
     text-align: center;
-    @include grid-media ($small) {
-        @include grid-column(2);
-    }
+
 }
-.gallery--box-50 {
-    padding-bottom: 1em;
-    text-align: center;
-    @include grid-media ($small) {
-        @include grid-column(2);
-    }
+
+.gallery--caption {
+    font-style: normal;
 }
-.gallery--box-home {
-    @include grid-media ($small) {
-        @include grid-column(2);
-    }
-}
-.alpha {
-    @include grid-media ($small) {
-        clear: both;
-    }
-}
-.last {
-    @include grid-media ($small) {
-        //@include omega();
-    }
-}
-/// Remove widths for grids
-@supports (display: grid) {
-  .gallery--box-50,
-  .gallery--box,
-  .gallery--box-large,
-  .gallery--box-home {
-    width: auto;
-  }
-}
+

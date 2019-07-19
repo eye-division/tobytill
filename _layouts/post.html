@@ -2,34 +2,36 @@
 layout: default
 ---
 <div class="page">
-  <header>
-    <section>
-      <h1 class="post--title">{{ page.title }}</h1>
-      {% if page.showdate %}
-        <div class="post--date">
-         {{ page.date | date: "%B %-d, %Y" }}
-        </div>
-      {% endif %}
-    </section>
+
+  <header class="post--header">
+    <h1 class="post--title">{{ page.title }}</h1>
   </header>
- 
+
   {% if page.main_image_path %}
     <figure>
     {% assign alt_text = page.title %}
-    {% if page.image_caption %} {% assign alt_text = page.image_caption %} {% endif %}
+    {% if page.main_image_caption %} {% assign alt_text = page.main_image_caption %} {% endif %}
     {% include img.html src=page.main_image_path alt=alt_text %}
+    {% if page.main_image_caption %}<figcaption>{{ alt_text }}</figcaption>{% endif %}
     </figure>
   {% endif %}
 
-    <section class="main-content">
-      {{ content | markdownify }}
+  <section class="main--content">
 
-    </section>
+   {{ content | markdownify }}
 
-    {% if page.images[0].image_path %}
-   
+   <div class="post--meta">
+      <span class="post--date">{{ page.post_date | date: "%-d %B %Y" }}</span>
+      <!-- Editor Link -->
+      <a href="cloudcannon:collections/{{ page.path }}" class="editor-link">Edit post</a>
+    </div>
+
+  </section>
+
+  {% if page.images[0].image_path %}
+
     <section class="gallery">
-      
+
       {% for image in page.images %}
 
         {% if image.image_path %}
@@ -42,15 +44,34 @@ layout: default
       {% endfor %}
 
     </section>
-    
-    {% endif %}
 
-  <section class="rss">
+  {% endif %}
+
+  {% if site.related_posts.size >= 1 %}
+
+    <section class="post--related">
+
+        <h3>You may also enjoy:</h3>
+
+        <ul class="default-ul">
+
+        {% for related_post in site.related_posts limit: 5 %}
+
+        <li><a href="{{ related_post.url }}">{{ related_post.title }}</a>  <span class="post--date">{{ related_post.post_date | date: "%-d %B %Y" }}</span></li>
+
+        {% endfor %}
+
+        </ul>
+
+    </section>
+  {% endif %}
+
+  <section class="post--rss">
     <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
   </section>
 
-  <section class="share">
-    
+  <section class="post--share">
+
     <span>Share: </span>
     {% for social in site.social %}
       {% capture full_url %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endcapture %}
@@ -90,11 +111,7 @@ layout: default
           <svg class="icon {{ social.icon }}"><use xlink:href="#{{ social.icon }}" /></svg>
         </a>
       {% endif %}
-      {% if social.name == "Hacker News" and social.share == true %}
-        <a href="//news.ycombinator.com/submitlink" onclick="window.location = '//news.ycombinator.com/submitlink?u=' + encodeURIComponent('{{ full_url }}') + '&t={{page.title}}'; return false" class="link--share">
-          <svg class="icon {{ social.icon }}"><use xlink:href="#{{ social.icon }}" /></svg>
-        </a>
-      {% endif %}
+
     {% endfor %}
   </section>
 
@@ -103,7 +120,7 @@ layout: default
     <span class="prev--post">
       {% if page.previous.url %}
         <a href="{{page.previous.url | prepend: site.baseurl}}">
-          <span class="fa-stack fa-lg">
+          <span class="">
             <svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_left" /></svg>
           </span>
           <span class="page-number">{{page.previous.title}}</span>
@@ -114,7 +131,7 @@ layout: default
       {% if page.next.url %}
         <a href="{{page.next.url | prepend: site.baseurl}}">
           <span class="page-number">{{page.next.title}}</span>
-          <span class="fa-stack fa-lg">
+          <span class="">
             <svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg>
           </span>
         </a>
@@ -124,22 +141,40 @@ layout: default
 {% endif %}
 
 {% if site.disqus_shortname %}
-{% unless page.disqus_disabled %}
-<section class="disqus">
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-    var disqus_shortname = '{{ site.disqus_shortname }}';
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="//disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</section>
-{% endunless %}
+  {% if page.comments %}
+
+    <section class="disqus">
+
+      <h3>Comment</h3>
+
+      <div id="disqus_thread"></div>
+
+      <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+        var disqus_shortname = '{{ site.disqus_shortname }}';
+        var pageurl = '{{ site.url }}' + '{{ page.url }}';
+        var disqus_config = function () {
+        this.page.url = pageurl;  // Replace PAGE_URL with your page's canonical URL variable
+        //this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    </section>
+
+
+  {% endif %}
+
 {% endif %}
 </div>
