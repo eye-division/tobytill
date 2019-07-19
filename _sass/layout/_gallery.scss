@@ -32,7 +32,9 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-
+    @include grid-media ($small) {
+        justify-content: space-between;
+    }
     // now grid it -- is this really necessary?
     /*@supports (display: grid) {
         display: grid;
