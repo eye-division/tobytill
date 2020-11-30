@@ -36,6 +36,9 @@ images:
   - image_path: /assets/images/6-lovers.jpg
     image_title: The Lovers
     image_description: 25.4 x 14 cm
+  - image_path: /assets/images/7-chariot.jpg
+    image_title: The Chariot
+    image_description: 25.4 x 14 cm
 archive: false
 _options:
   image_path:
