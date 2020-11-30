@@ -18,6 +18,9 @@ images:
   - image_path: /assets/images/0-fool.jpg
     image_title: The Fool
     image_description:
+  - image_path: /assets/images/1-magus.jpg
+    image_title: The Magus
+    image_description:
 archive: false
 _options:
   image_path:
