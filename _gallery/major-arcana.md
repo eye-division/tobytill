@@ -45,6 +45,9 @@ images:
   - image_path: /assets/images/9-hermit.jpg
     image_title: The Hermit
     image_description: 25.4 x 14 cm
+  - image_path: /assets/images/10-wheel-of-fortune.jpg
+    image_title: Wheel of Fortune
+    image_description: 25.4 x 14 cm
 archive: false
 _options:
   image_path:
