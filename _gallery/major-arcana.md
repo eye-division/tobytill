@@ -72,6 +72,12 @@ images:
   - image_path: /assets/images/18-moon.jpg
     image_title: The Moon
     image_description: 25.4 x 14 cm
+  - image_path: /assets/images/19-sun.jpg
+    image_title: The Sun
+    image_description: 25.4 x 14 cm
+  - image_path: /assets/images/20-judgement.jpg
+    image_title: Judgement
+    image_description: 25.4 x 14 cm
 archive: false
 _options:
   image_path:
