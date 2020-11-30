@@ -33,6 +33,9 @@ images:
   - image_path: /assets/images/5-pope.jpg
     image_title: The Pope
     image_description: 25.4 x 14 cm
+  - image_path: /assets/images/6-lovers.jpg
+    image_title: The Lovers
+    image_description: 25.4 x 14 cm
 archive: false
 _options:
   image_path:
