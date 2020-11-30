@@ -28,7 +28,7 @@ images:
     image_title: Empress
     image_description:
   - image_path: /assets/images/4-emperor.jpg
-    image_title: Emperor
+    image_title: The Emperor
     image_description: 25.4 x 14 cm
 archive: false
 _options:
