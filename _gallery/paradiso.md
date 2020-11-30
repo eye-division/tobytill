@@ -5,7 +5,7 @@ permalink:
 gallery_date:
 frontpage: true
 homepage_description_markdown:
-frontpagetitle:
+frontpagetitle: Paradiso
 display_image: true
 main_image_path: /assets/images/paradise-flat-colour.jpg
 main_image_caption:
