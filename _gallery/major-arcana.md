@@ -25,8 +25,8 @@ images:
     image_title: The High Priestess
     image_description: 25.4 x 14 cm
   - image_path: /assets/images/3-empress.jpg
-    image_title: Empress
-    image_description:
+    image_title: The Empress
+    image_description: 25.4 x 14 cm
   - image_path: /assets/images/4-emperor.jpg
     image_title: The Emperor
     image_description: 25.4 x 14 cm
