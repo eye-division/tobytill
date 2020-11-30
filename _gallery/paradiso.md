@@ -19,7 +19,7 @@ images:
     image_title:
     image_description:
   - image_path: /assets/images/7.jpg
-    image_title:
+    image_title: Detail 2
     image_description:
 archive: false
 _options:
