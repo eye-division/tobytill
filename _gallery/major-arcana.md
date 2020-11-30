@@ -20,7 +20,7 @@ images:
     image_description: 25.4 x 14 cm
   - image_path: /assets/images/1-magus.jpg
     image_title: The Magus
-    image_description:
+    image_description: 25.4 x 14 cm
   - image_path: /assets/images/2-high-priestess.jpg
     image_title: The High Priestess
     image_description:
