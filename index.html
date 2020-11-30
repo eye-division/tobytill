@@ -2,18 +2,18 @@
 layout: home
 carousel:
   - image: /assets/images/471dfeb604e95.jpg
-    caption: 
-    link: "/gallery/prints/"
+    caption:
+    link: /gallery/prints/
   - image: /assets/images/4c61772903aba.jpg
-    caption: "Inferno"
-    link: "/gallery/inferno/"
+    caption: Inferno
+    link: /gallery/inferno/
   - image: /assets/images/52d4680d035dc.jpg
-    caption: "London print series"
-    link: "/gallery/london-a-z/"
+    caption: London print series
+    link: /gallery/london-a-z/
   - image: /assets/images/52d46c6e653c7.jpg
-    caption: "Oranges and Lemons"
-    link: "/gallery/oranges-and-lemons/"
-showcarousel: false
+    caption: Oranges and Lemons
+    link: /gallery/oranges-and-lemons/
+showcarousel: true
 _options:
   image:
     width: 1200
@@ -26,7 +26,7 @@ _comments:
   caption: optional caption
 ---
 
-    <div class="editable">
+<div class="editable">
 
     </div>
 
@@ -76,11 +76,11 @@ _comments:
                   <h2 class="gallery--title">{{ section.frontpagetitle }}</h2>
                 </header>
                 {% if section.homepage_description_markdown %}
-                  {{ section.homepage_description_markdown  | markdownify }}<br>
+                  {{ section.homepage_description_markdown  | markdownify }}<br />
                   <span class="readmore">Read more <span>{{nextPost.title}} <svg class="icon"><use xlink:href="#icon-double_angle_right" /></svg></span>
 
                 {% endif %}
-            </article>
+            </span></article>
           </div>
           </a>
         </section>
@@ -108,3 +108,4 @@ _comments:
       </section>
       {% endif %}
     {% endfor %}
+</section>
