@@ -21,7 +21,7 @@ h6 {
 }
 h1 {
   font-size: modular-scale(2);
-  font-weight: 700;
+ // font-weight: 700;
   font-family: $site-title-font-family;
   @include grid-media ($small) {
     font-size: modular-scale(4);

@@ -1,11 +1,11 @@
 // Typography
 // Google Fonts
-@import url(//fonts.googleapis.com/css?family=Stardos+Stencil:400,700|Muli);
+@import url(//fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap);
 
-$base-font-family: ('Muli', 'Century Gothic', 'verdana', 'Arial', sans-serif);
+$base-font-family: ('Josefin Sans', sans-serif);
 $heading-font-family: $base-font-family;
-$subheading-font-family: ('Muli', 'Century Gothic', 'verdana', 'Arial', sans-serif);
-$site-title-font-family: ('Stardos Stencil', cursive);
+$subheading-font-family: ('Josefin Sans', sans-serif);
+$site-title-font-family: ('Josefin Sans', sans-serif);
 $logo-font-family: $site-title-font-family;
 
 // Line height
