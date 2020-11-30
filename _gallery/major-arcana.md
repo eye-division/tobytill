@@ -30,6 +30,9 @@ images:
   - image_path: /assets/images/4-emperor.jpg
     image_title: The Emperor
     image_description: 25.4 x 14 cm
+  - image_path: /assets/images/5-pope.jpg
+    image_title: The Pope
+    image_description: 25.4 x 14 cm
 archive: false
 _options:
   image_path:
