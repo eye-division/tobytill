@@ -29,7 +29,7 @@ images:
     image_description:
   - image_path: /assets/images/4-emperor.jpg
     image_title: Emperor
-    image_description:
+    image_description: 25.4 x 14 cm
 archive: false
 _options:
   image_path:
