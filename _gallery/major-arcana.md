@@ -6,7 +6,7 @@ gallery_date:
 frontpage: true
 homepage_description_markdown: Major Arcana
 frontpagetitle: Major Arcana
-display_image: false
+display_image: true
 main_image_path: /assets/images/19-sun.jpg
 main_image_caption: The Sun
 thumb_crop: true
