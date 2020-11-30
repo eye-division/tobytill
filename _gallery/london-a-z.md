@@ -3,14 +3,14 @@ title: London A-Z
 order: 2
 homepage_description_markdown:
 frontpage: true
-frontpagetitle: "London A-Z"
+frontpagetitle: London A-Z
 gallery_date: 2016-05-01 00:00:00
 permalink: /gallery/london-a-z/
 archive: false
 display_title: true
 main_image_path: /assets/images/4f08eaf0f0216.jpg
 main_image_caption: London A-Z - 28 x 24cm
-thumb_crop: true
+thumb_crop: false
 display_thumb_title: true
 display_image: true
 images:
@@ -94,26 +94,26 @@ images:
     image_description: 28 x 24cm
 _options:
   image_path:
-    uploads_dir: "assets/images/:year"
+    uploads_dir: 'assets/images/:year'
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg
   main_image_path:
-    uploads_dir: "assets/images/:year"
+    uploads_dir: 'assets/images/:year'
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg
   content:
-    uploads_dir: "assets/:year"
+    uploads_dir: 'assets/:year'
 _comments:
   title: Gallery title
   order: Manually order the galleries
   permalink: Edit the web address here - letters and hyphen only
   display_image: Show featured image at the top of the gallery
   display_title: Show the title at the top of the gallery
-  display_thumb_title: Show titles with image thumbnails 
+  display_thumb_title: Show titles with image thumbnails
   main_image_path: Image used to represent your gallery
   images: Add and edit your gallery images here
   image_description: Usually only shown in the image close up
