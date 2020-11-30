@@ -27,6 +27,9 @@ images:
   - image_path: /assets/images/3-empress.jpg
     image_title: Empress
     image_description:
+  - image_path: /assets/images/4-emperor.jpg
+    image_title: Emperor
+    image_description:
 archive: false
 _options:
   image_path:
