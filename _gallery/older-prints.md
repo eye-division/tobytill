@@ -1,75 +1,74 @@
 ---
-title: "Older Prints"
+title: Older Prints
 order: 5
-
-homepage_description_markdown: 
+homepage_description_markdown:
 frontpage: true
-frontpagetitle: "Older prints"
+frontpagetitle: Older prints
 gallery_date: 2016-05-01 00:00:00
 permalink: /gallery/older-prints/
 archive: false
 display_title: true
 main_image_path: /assets/images/43ed08821aed1.jpg
-main_image_caption: "The Bull - 60 x 80cm"
+main_image_caption: The Bull - 60 x 80cm
 thumb_crop: true
 display_thumb_title: true
 display_image: true
 images:
-  - image_path: "/assets/images/43e67f483ee2d.jpg"
-    image_title: "North End Road Market"
-    image_description: "45 x 80cm"
-  - image_path: "/assets/images/43ed089ccac5a.jpg"
-    image_title: "Cinema"
-    image_description: "60 x 80cm"
-  - image_path: "/assets/images/43ed08b70514a.jpg"
-    image_title: "Lower Waterloo Place"
-    image_description: "60 x 80cm"
-  - image_path: "/assets/images/453fc299e9736.jpg"
-    image_title: "Clerkenwell Green"
-    image_description: "133 x 90cm"
-  - image_path: "/assets/images/43edbb5042d09.jpg"
-    image_title: "South India Quays"
-    image_description: "40 x 60cm"
-  - image_path: "/assets/images/428230fc44f37.jpg"
-    image_title: "Regent's Canal"
-    image_description: "35 x 32cm"
-  - image_path: "/assets/images/4b770b123f607.jpg"
-    image_title: "Lower Waterloo Place"
-    image_description: ""
-  - image_path: "/assets/images/4b770b4b2ae6d.jpg"
-    image_title: "Liverpool Street Station"
-    image_description: ""
-  - image_path: "/assets/images/4b770b8bac795.jpg"
-    image_title: "Cycle Courier"
-    image_description: ""
-  - image_path: "/assets/images/4b770bba78f14.jpg"
-    image_title: "The Bull"
-    image_description: ""
-  - image_path: "/assets/images/4b770be9c3c2e.jpg"
-    image_title: "Supermarket Checkout"
-    image_description: ""
+  - image_path: /assets/images/43e67f483ee2d.jpg
+    image_title: North End Road Market
+    image_description: 45 x 80cm
+  - image_path: /assets/images/43ed089ccac5a.jpg
+    image_title: Cinema
+    image_description: 60 x 80cm
+  - image_path: /assets/images/43ed08b70514a.jpg
+    image_title: Lower Waterloo Place
+    image_description: 60 x 80cm
+  - image_path: /assets/images/453fc299e9736.jpg
+    image_title: Clerkenwell Green
+    image_description: 133 x 90cm
+  - image_path: /assets/images/43edbb5042d09.jpg
+    image_title: South India Quays
+    image_description: 40 x 60cm
+  - image_path: /assets/images/428230fc44f37.jpg
+    image_title: Regent's Canal
+    image_description: 35 x 32cm
+  - image_path: /assets/images/4b770b123f607.jpg
+    image_title: Lower Waterloo Place
+    image_description:
+  - image_path: /assets/images/4b770b4b2ae6d.jpg
+    image_title: Liverpool Street Station
+    image_description:
+  - image_path: /assets/images/4b770b8bac795.jpg
+    image_title: Cycle Courier
+    image_description:
+  - image_path: /assets/images/4b770bba78f14.jpg
+    image_title: The Bull
+    image_description:
+  - image_path: /assets/images/4b770be9c3c2e.jpg
+    image_title: Supermarket Checkout
+    image_description:
 _options:
   image_path:
-    uploads_dir: "assets/images/:year"
+    uploads_dir: 'assets/images/:year'
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg
   main_image_path:
-    uploads_dir: "assets/images/:year"
+    uploads_dir: 'assets/images/:year'
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg
   content:
-    uploads_dir: "assets/:year"
+    uploads_dir: 'assets/:year'
 _comments:
   title: Gallery title
   order: Manually order the galleries
   permalink: Edit the web address here - letters and hyphen only
   display_image: Show featured image at the top of the gallery
   display_title: Show the title at the top of the gallery
-  display_thumb_title: Show titles with image thumbnails 
+  display_thumb_title: Show titles with image thumbnails
   main_image_path: Image used to represent your gallery
   images: Add and edit your gallery images here
   image_description: Usually only shown in the image close up
