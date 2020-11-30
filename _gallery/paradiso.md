@@ -18,6 +18,9 @@ images:
   - image_path: /assets/images/1.jpg
     image_title:
     image_description:
+  - image_path: /assets/images/7.jpg
+    image_title:
+    image_description:
 archive: false
 _options:
   image_path:
