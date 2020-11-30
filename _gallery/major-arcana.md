@@ -78,6 +78,9 @@ images:
   - image_path: /assets/images/20-judgement.jpg
     image_title: Judgement
     image_description: 25.4 x 14 cm
+  - image_path: /assets/images/21-the-world.jpg
+    image_title: The World
+    image_description: 25.4 x 14 cm
 archive: false
 _options:
   image_path:
