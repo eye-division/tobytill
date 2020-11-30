@@ -21,6 +21,9 @@ images:
   - image_path: /assets/images/1-magus.jpg
     image_title: The Magus
     image_description:
+  - image_path: /assets/images/2-high-priestess.jpg
+    image_title: The High Priestess
+    image_description:
 archive: false
 _options:
   image_path:
