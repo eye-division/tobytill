@@ -24,6 +24,9 @@ images:
   - image_path: /assets/images/2-high-priestess.jpg
     image_title: The High Priestess
     image_description:
+  - image_path: /assets/images/3-empress.jpg
+    image_title: Empress
+    image_description:
 archive: false
 _options:
   image_path:
