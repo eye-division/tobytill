@@ -9,7 +9,7 @@ frontpagetitle: Major Arcana
 display_image: true
 main_image_path: /assets/images/19-sun.jpg
 main_image_caption: The Sun
-thumb_crop: true
+thumb_crop: false
 display_thumb_title: true
 images:
   - image_path:
