@@ -1,10 +1,10 @@
 ---
 title: Paradiso
 display_title: true
-permalink:
+permalink: Paradiso
 gallery_date:
 frontpage: true
-homepage_description_markdown:
+homepage_description_markdown: Paradiso
 frontpagetitle: Paradiso
 display_image: true
 main_image_path: /assets/images/paradise-flat-colour.jpg
