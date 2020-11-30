@@ -22,7 +22,7 @@ images:
     image_title: Detail 2
     image_description:
   - image_path: /assets/images/5.jpg
-    image_title: detail 3
+    image_title: Detail 3
     image_description:
 archive: false
 _options:
