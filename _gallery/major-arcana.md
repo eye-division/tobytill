@@ -57,6 +57,9 @@ images:
   - image_path: /assets/images/13-death.jpg
     image_title: Death
     image_description: 25.4 x 14 cm
+  - image_path: /assets/images/14-temperance.jpg
+    image_title: Temperance
+    image_description: 25.4 x 14 cm
 archive: false
 _options:
   image_path:
