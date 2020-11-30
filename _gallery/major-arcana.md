@@ -51,6 +51,9 @@ images:
   - image_path: /assets/images/11-justice.jpg
     image_title: Justice
     image_description: 25.4 x 14 cm
+  - image_path: /assets/images/12-hanged-man.jpg
+    image_title: The Hanged Man
+    image_description: 25.4 x 14 cm
 archive: false
 _options:
   image_path:
