@@ -60,6 +60,9 @@ images:
   - image_path: /assets/images/14-temperance.jpg
     image_title: Temperance
     image_description: 25.4 x 14 cm
+  - image_path: /assets/images/15-devil.jpg
+    image_title: The Devil
+    image_description: 25.4 x 14 cm
 archive: false
 _options:
   image_path:
