@@ -10,7 +10,7 @@ archive: false
 display_title: true
 main_image_path: /assets/images/43ed08821aed1.jpg
 main_image_caption: The Bull - 60 x 80cm
-thumb_crop: false
+thumb_crop: true
 display_thumb_title: true
 display_image: true
 images:
