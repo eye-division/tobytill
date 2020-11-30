@@ -6,7 +6,7 @@ gallery_date:
 frontpage: true
 homepage_description_markdown: New York
 frontpagetitle: New York
-display_image: false
+display_image: true
 main_image_path: /assets/images/composite-proof-ny.jpg
 main_image_caption: New York
 thumb_crop: true
