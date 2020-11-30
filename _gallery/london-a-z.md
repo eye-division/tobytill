@@ -1,6 +1,6 @@
 ---
-title: London A-A
-order: 2
+title: London A-Z
+order: 3
 homepage_description_markdown:
 frontpage: true
 frontpagetitle: London A-Z
