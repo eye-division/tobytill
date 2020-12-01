@@ -95,6 +95,9 @@ images:
   - image_path: /assets/images/telegraph-london-art-fair-b.jpg
     image_title: The Telegraph
     image_description: London Art Fair
+  - image_path: /assets/images/guardian-london-art-fair.jpg
+    image_title: The Guardian
+    image_description: London Art Fair
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
