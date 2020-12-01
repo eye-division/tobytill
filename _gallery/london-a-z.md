@@ -95,14 +95,14 @@ images:
   - image_path: /assets/images/telegraph-london-art-fair-c.jpg
     image_title: The Telegraph
     image_description: London Art Fair
+  - image_path: /assets/images/christies-screenshot-a-z-prints-d.jpg
+    image_title: 'Christies'', London Sale 2012'
+    image_description:
   - image_path: /assets/images/guardian-london-art-fair.jpg
     image_title: The Guardian
     image_description: London Art Fair
   - image_path:
     image_title:
-    image_description:
-  - image_path: /assets/images/christies-screenshot-a-z-prints-d.jpg
-    image_title: 'Christies'', London Sale 2012'
     image_description:
 _options:
   image_path:
