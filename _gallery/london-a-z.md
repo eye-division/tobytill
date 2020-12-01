@@ -92,6 +92,9 @@ images:
   - image_path: /assets/images/4f094e1513d37.jpg
     image_title: Z - London Zoo
     image_description: 28 x 24cm
+  - image_path: /assets/images/telegraph-london-art-fair.jpg
+    image_title: The Telegraph
+    image_description: London Art Fair
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
