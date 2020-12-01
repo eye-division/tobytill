@@ -23,6 +23,9 @@ images:
   - image_path: /assets/images/5908f79cc9df2.jpg
     image_title: Inferno detail
     image_description:
+  - image_path: /assets/images/ra-sqaure.jpg
+    image_title: Royal Academy Summer Exhibition
+    image_description:
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
