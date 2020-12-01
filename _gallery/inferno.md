@@ -25,7 +25,7 @@ images:
     image_description:
   - image_path: /assets/images/ra-sqaure.jpg
     image_title: Royal Academy Summer Exhibition
-    image_description:
+    image_description: description of image here
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
