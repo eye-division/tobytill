@@ -1,7 +1,7 @@
 ---
 title: Major Arcana
 display_title: true
-permalink: /gallery/MajorArcana
+permalink: /gallery/MajorArcana/
 gallery_date:
 frontpage: true
 homepage_description_markdown: Major Arcana
