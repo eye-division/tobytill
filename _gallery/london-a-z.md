@@ -101,7 +101,7 @@ images:
   - image_path:
     image_title:
     image_description:
-  - image_path: /assets/images/christies-screenshot-a-z-prints-c.jpg
+  - image_path: /assets/images/christies-screenshot-a-z-prints-d.jpg
     image_title: 'Christies'', London Sale 2012'
     image_description:
 _options:
