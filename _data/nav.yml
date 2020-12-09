@@ -1,6 +1,8 @@
 ---
 - title: Home
   href: /
+- title: Paradiso
+  href: /gallery/paradiso/
 - title: Inferno
   href: /gallery/inferno/
 - title: London A-Z
@@ -17,6 +19,4 @@
   href: /news/
 - title: Contact
   href: /contact/
-- title: Paradiso
-  href: /gallery/paradiso/
 ---
