@@ -1,7 +1,7 @@
 ---
 title: New York
 display_title: true
-permalink:
+permalink: /gallery/new-york/
 gallery_date:
 frontpage: true
 homepage_description_markdown: New York
@@ -42,7 +42,7 @@ _comments:
   main_image_path: Image used to represent your gallery
   images: Add and edit your gallery images here
   image_description: Usually only shown in the image close up
-  image_path: Maximum 1200 pixels 
+  image_path: Maximum 1200 pixels
   thumb_path: Custom thumbnail image
   thumb_crop: Crop thumbnail images to a consistent size
   archive: Hide gallery from public view
