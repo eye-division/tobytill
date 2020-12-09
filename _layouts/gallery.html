@@ -48,22 +48,26 @@ layout: default
 
             <a href="{% include imgpath.html src=image %}" class="gallery--link" data-lightbox="gallery" data-title="{{ thisimage.image_title }}{% if thisimage.image_description %} - {{ thisimage.image_description }}{% endif %}">
 
-              {% if page.thumb_crop %}
+              <!-- 1. custom thumbnail -->
+              {% if thisimage.thumb_path %}
 
-                <!-- cropped square images -->
+                {% include img.html src=thisimage.thumb_path width=200 height=200 fit=crop alt=thisimage.image_title %}
+              <!-- 2. cropped square images -->
+
+              {% elsif page.thumb_crop %}
+
                 {% include img.html src=image width=200 height=200 fit=crop alt=thisimage.image_title %}
-                <!-- end cropped square -->
 
+              <!-- 3. full format images -->
               {% else %}
 
-                <!-- full format images -->
                 {% include img.html src=image width=400 fit=clip alt=thisimage.image_title %}
-                 <!-- end format images -->
-               {% endif %}
 
-               {% if page.display_thumb_title %}
-                  <figcaption class="gallery--caption">{{ thisimage.image_title }}</figcaption>
-                {% endif %}
+              {% endif %}
+
+              {% if page.display_thumb_title %}
+                <figcaption class="gallery--caption">{{ thisimage.image_title }}</figcaption>
+              {% endif %}
 
             </a>
 

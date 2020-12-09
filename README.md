@@ -31,6 +31,9 @@ This theme comes with a number of features, including:
 * Designed for use on CloudCannon hosting for customer editing
 * uses imgIX as image CDN on staging and production
 
+## Customisations from base framework
+
+* Custom thumbnail images in gallery
 
 ## Installation
 

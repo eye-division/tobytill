@@ -17,15 +17,23 @@ images:
   - image_path: /assets/images/5908f513b6ab6.jpg
     image_title: Inferno detail 2
     image_description:
+    thumb_path:
   - image_path: /assets/images/5908f55cb8e4e.jpg
     image_title: Inferno detail 3
     image_description:
+    thumb_path:
   - image_path: /assets/images/5908f79cc9df2.jpg
     image_title: Inferno detail
     image_description:
+    thumb_path:
   - image_path: /assets/images/ra-sqaure.jpg
     image_title: Royal Academy Summer Exhibition
-    image_description: description of image here
+    image_description: 
+    thumb_path:
+  - image_path: /assets/images/digital-web-image-flat.jpg
+    image_title: Demo thumbnail
+    image_description:
+    thumb_path: /assets/images/inferno-thumbnail.jpg
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
@@ -51,6 +59,8 @@ _comments:
   main_image_path: Image used to represent your gallery
   images: Add and edit your gallery images here
   image_description: Usually only shown in the image close up
+  image_path: Maximum 1200 pixels 
+  thumb_path: Custom thumbnail image
   thumb_crop: Crop thumbnail images to a consistent size
   archive: Hide gallery from public view
   frontpage: Show this gallery on the homepage
