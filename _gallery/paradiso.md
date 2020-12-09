@@ -1,5 +1,6 @@
 ---
 title: Paradiso
+order: 1
 display_title: true
 permalink: /gallery/paradiso/
 gallery_date:
