@@ -17,15 +17,19 @@ images:
   - image_path: /assets/images/52d470d24b8a1.jpg
     image_title: Oranges and Lemons detail 1
     image_description:
+    thumb_path:
   - image_path: /assets/images/52d470f68d21c.jpg
     image_title: Oranges and Lemons detail 2
     image_description:
+    thumb_path:
   - image_path: /assets/images/52d471137d47d.jpg
     image_title: Oranges and Lemons detail 3
     image_description:
+    thumb_path:
   - image_path: /assets/images/52d47133f39bb.jpg
     image_title: Oranges and Lemons detail 4
     image_description:
+    thumb_path:
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
