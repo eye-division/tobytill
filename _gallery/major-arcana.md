@@ -2,7 +2,7 @@
 title: Major Arcana
 order: 3
 display_title: true
-permalink: /gallery/majorarcana/
+permalink: /gallery/major-arcana/
 gallery_date:
 frontpage: true
 homepage_description_markdown: Major Arcana
