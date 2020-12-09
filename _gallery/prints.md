@@ -38,6 +38,50 @@ images:
     image_title: "London Bridges"
     image_description: "139 x 38cm"
     thumb_path:
+  - image_path: /assets/images/43e67f483ee2d.jpg
+    image_title: North End Road Market
+    image_description: 45 x 80cm
+    thumb_path:
+  - image_path: /assets/images/43ed089ccac5a.jpg
+    image_title: Cinema
+    image_description: 60 x 80cm
+    thumb_path:
+  - image_path: /assets/images/43ed08b70514a.jpg
+    image_title: Lower Waterloo Place
+    image_description: 60 x 80cm
+    thumb_path:
+  - image_path: /assets/images/453fc299e9736.jpg
+    image_title: Clerkenwell Green
+    image_description: 133 x 90cm
+    thumb_path:
+  - image_path: /assets/images/43edbb5042d09.jpg
+    image_title: South India Quays
+    image_description: 40 x 60cm
+    thumb_path:
+  - image_path: /assets/images/428230fc44f37.jpg
+    image_title: Regent's Canal
+    image_description: 35 x 32cm
+    thumb_path:
+  - image_path: /assets/images/4b770b123f607.jpg
+    image_title: Lower Waterloo Place
+    image_description:
+    thumb_path:
+  - image_path: /assets/images/4b770b4b2ae6d.jpg
+    image_title: Liverpool Street Station
+    image_description:
+    thumb_path:
+  - image_path: /assets/images/4b770b8bac795.jpg
+    image_title: Cycle Courier
+    image_description:
+    thumb_path:
+  - image_path: /assets/images/4b770bba78f14.jpg
+    image_title: The Bull
+    image_description:
+    thumb_path:
+  - image_path: /assets/images/4b770be9c3c2e.jpg
+    image_title: Supermarket Checkout
+    image_description:
+    thumb_path:
 _options:
   image_path:
     uploads_dir: "assets/images/:year"
