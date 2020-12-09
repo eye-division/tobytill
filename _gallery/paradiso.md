@@ -1,7 +1,7 @@
 ---
 title: Paradiso
 display_title: true
-permalink: /gallery/paradiso
+permalink: /gallery/paradiso/
 gallery_date:
 frontpage: true
 homepage_description_markdown: Paradiso
@@ -62,4 +62,3 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
-
