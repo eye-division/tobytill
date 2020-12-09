@@ -1,7 +1,7 @@
 ---
 title: New York
 display_title: true
-permalink: /gallery/new-york/
+permalink: /gallery/newyork/
 gallery_date:
 frontpage: true
 homepage_description_markdown: New York
