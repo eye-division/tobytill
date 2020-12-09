@@ -1,7 +1,7 @@
 ---
 title: Paradiso
 display_title: true
-permalink: Paradiso
+permalink: /gallery/paradiso
 gallery_date:
 frontpage: true
 homepage_description_markdown: Paradiso
@@ -54,7 +54,7 @@ _comments:
   main_image_path: Image used to represent your gallery
   images: Add and edit your gallery images here
   image_description: Usually only shown in the image close up
-  image_path: Maximum 1200 pixels 
+  image_path: Maximum 1200 pixels
   thumb_path: Custom thumbnail image
   thumb_crop: Crop thumbnail images to a consistent size
   archive: Hide gallery from public view
@@ -62,3 +62,4 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
+
