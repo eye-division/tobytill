@@ -1,5 +1,6 @@
 ---
 title: Major Arcana
+order: 3
 display_title: true
 permalink: /gallery/MajorArcana/
 gallery_date:
