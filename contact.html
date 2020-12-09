@@ -14,19 +14,19 @@ _options:
   permalink:
     hidden: true
   image_path:
-    uploads_dir: "assets/images/:year"
+    uploads_dir: 'assets/images/:year'
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg
   main_image_path:
-    uploads_dir: "assets/images/:year"
+    uploads_dir: 'assets/images/:year'
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg
   content:
-    uploads_dir: "assets/:year"
+    uploads_dir: 'assets/:year'
 _comments:
   title: Page title
   main_image_path: Image used to represent your page
@@ -35,9 +35,10 @@ _comments:
   homepage_description_markdown: Text used on homepage if shown
   frontpagetitle: Alternative title for home page use
 ---
-  <div class="editable">
 
-  </div>
+<div class="editable">
+      <p>Hello</p>
+    </div>
 
 {% if page.show_form %}
     <form action="/thanks/" method="post">
@@ -45,14 +46,14 @@ _comments:
       <legend>Send email</legend>
 
       <fieldset>
-      <input type="hidden" name="_to" value="ttprints@gmail.com">
-      <input type="hidden" name="_subject" value="Web form">
+      <input type="hidden" name="_to" value="ttprints@gmail.com" />
+      <input type="hidden" name="_subject" value="Web form" />
       <p><label for="name">Name:</label>
-      <input type="text" name="name" id="name">
+      <input type="text" name="name" id="name" />
       </p>
       <p>
       <label for="_replyto">Email:</label>
-      <input type="email" name="_replyto" id="_replyto">
+      <input type="email" name="_replyto" id="_replyto" />
       </p>
       <p>
      <label for="message">Message</label>
@@ -63,7 +64,7 @@ _comments:
       {% endif %}
 
       <p>
-        <input type="submit" value="Send message">
+        <input type="submit" value="Send message" />
       </p>
 
     </fieldset>
