@@ -1,7 +1,7 @@
 ---
 title: Inferno
 display_title: true
-order: 1
+order: 2
 homepage_description_markdown:
 frontpage: true
 frontpagetitle: Inferno
@@ -28,7 +28,7 @@ images:
     thumb_path:
   - image_path: /assets/images/ra-sqaure.jpg
     image_title: Royal Academy Summer Exhibition
-    image_description: 
+    image_description:
     thumb_path:
   - image_path: /assets/images/digital-web-image-flat.jpg
     image_title: Demo thumbnail
@@ -59,7 +59,7 @@ _comments:
   main_image_path: Image used to represent your gallery
   images: Add and edit your gallery images here
   image_description: Usually only shown in the image close up
-  image_path: Maximum 1200 pixels 
+  image_path: Maximum 1200 pixels
   thumb_path: Custom thumbnail image
   thumb_crop: Crop thumbnail images to a consistent size
   archive: Hide gallery from public view
@@ -67,5 +67,4 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
-
 Inspired by Dante's "Divine Comedy", Tobias Till's "Inferno" is a satirical and humorous depiction of Hell set in contemporary London. This print has been launched by TAG Fine Arts at 2017 London Original Print Fair. For further information on the print, please contact TAG Fine Arts: info@tagfinearts.com
