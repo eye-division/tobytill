@@ -1,6 +1,7 @@
 ---
 title: 
 display_title: true
+order:
 permalink:
 gallery_date: 
 frontpage: true
