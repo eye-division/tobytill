@@ -13,10 +13,6 @@ main_image_caption: The Sun
 thumb_crop: false
 display_thumb_title: true
 images:
-  - image_path:
-    image_title:
-    image_description:
-    thumb_path:
   - image_path: /assets/images/0-fool.jpg
     image_title: The Fool
     image_description: 25.4 x 14 cm
