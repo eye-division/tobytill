@@ -13,7 +13,7 @@ thumb_crop: true
 display_thumb_title: true
 images:
   - image_path:
-    image_title: New York
+    image_title:
     image_description:
     thumb_path:
   - image_path: /assets/images/detail-4.JPG
