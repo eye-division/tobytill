@@ -85,7 +85,7 @@ images:
     image_title: The Star
     image_description: 25.4 x 14 cm
     thumb_path:
-  - image_path: /assets/images/18-moon.jpg
+  - image_path: /assets/images/18-moon-1.jpg
     image_title: The Moon
     image_description: 25.4 x 14 cm
     thumb_path:
