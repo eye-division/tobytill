@@ -15,7 +15,7 @@ display_thumb_title: true
 display_image: true
 images:
   - image_path: /assets/images/52d470d24b8a1.jpg
-    image_title: Oranges and Lemons detail 1
+    image_title: detail 1
     image_description:
     thumb_path:
   - image_path: /assets/images/52d470f68d21c.jpg
@@ -54,13 +54,11 @@ _comments:
   display_thumb_title: Show titles with image thumbnails
   main_image_path: Image used to represent your gallery
   images: Add and edit your gallery images here
-  thumb_path: Usually only shown in the image close up
-  image_path: Maximum 1200 pixels 
   thumb_path: Custom thumbnail image
+  image_path: Maximum 1200 pixels
   thumb_crop: Crop thumbnail images to a consistent size
   archive: Hide gallery from public view
   frontpage: Show this gallery on the homepage
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
-
