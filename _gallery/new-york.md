@@ -24,6 +24,10 @@ images:
     image_title: detail 2
     image_description:
     thumb_path:
+  - image_path: /assets/images/detail-2.JPG
+    image_title: detail 3
+    image_description:
+    thumb_path:
 archive: false
 _options:
   image_path:
