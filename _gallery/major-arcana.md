@@ -17,7 +17,7 @@ images:
     image_title: The Fool
     image_description: 25.4 x 14 cm
     thumb_path:
-  - image_path: /assets/images/1-magus.jpg
+  - image_path: /assets/images/1-magus-1.jpg
     image_title: The Magus
     image_description: 25.4 x 14 cm
     thumb_path:
