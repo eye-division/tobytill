@@ -2,7 +2,7 @@
 layout: post
 title: Breaking News
 date: 2020-12-14 17:52:00
-main_image_path: /uploads/banner-news-150h.jpg
+main_image_path:
 images:
   - image_path:
     description:
