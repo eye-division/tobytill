@@ -6,7 +6,7 @@ title: >-
 date: 2020-12-14 19:15:00
 main_image_path: /uploads/img-2448.JPG
 images:
-  - image_path: /uploads/lopf-2.jpg
+  - image_path: /uploads/lopf.jpg
     description:
 _options:
   main_image_path:
