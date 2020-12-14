@@ -16,6 +16,10 @@ images:
     image_title: New York
     image_description:
     thumb_path:
+  - image_path: /assets/images/detail-4.JPG
+    image_title: detail 1
+    image_description:
+    thumb_path:
 archive: false
 _options:
   image_path:
