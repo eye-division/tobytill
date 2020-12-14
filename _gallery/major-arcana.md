@@ -49,7 +49,7 @@ images:
     image_title: Strength
     image_description: 25.4 x 14 cm
     thumb_path:
-  - image_path: /assets/images/9-hermit.jpg
+  - image_path: /assets/images/9-hermit-1.jpg
     image_title: The Hermit
     image_description: 25.4 x 14 cm
     thumb_path:
