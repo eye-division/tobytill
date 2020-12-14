@@ -12,10 +12,6 @@ main_image_caption: New York
 thumb_crop: true
 display_thumb_title: true
 images:
-  - image_path:
-    image_title:
-    image_description:
-    thumb_path:
   - image_path: /assets/images/detail-4.JPG
     image_title: detail 1
     image_description:
