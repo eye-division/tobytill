@@ -81,7 +81,7 @@ images:
     image_title: The Tower
     image_description: 25.4 x 14 cm
     thumb_path:
-  - image_path: /assets/images/17-star.jpg
+  - image_path: /assets/images/17-star-1.jpg
     image_title: The Star
     image_description: 25.4 x 14 cm
     thumb_path:
