@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Breaking News
-date: 2020-12-14 17:52:29
-main_image_path: /uploads/news-3.jpg
+date: 2020-12-14 17:52:00
+main_image_path: /uploads/banner-news-150h.jpg
 images:
   - image_path:
     description:
