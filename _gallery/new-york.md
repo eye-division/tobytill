@@ -12,7 +12,7 @@ main_image_caption: New York
 thumb_crop: true
 display_thumb_title: true
 images:
-  - image_path: /assets/images/tobias-till-ny-test-print-proof.jpg
+  - image_path:
     image_title: New York
     image_description:
     thumb_path:
