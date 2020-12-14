@@ -45,7 +45,7 @@ images:
     image_title: The Chariot
     image_description: 25.4 x 14 cm
     thumb_path:
-  - image_path: /assets/images/8-strength.jpg
+  - image_path: /assets/images/8-strength-1.jpg
     image_title: Strength
     image_description: 25.4 x 14 cm
     thumb_path:
