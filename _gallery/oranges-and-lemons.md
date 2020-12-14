@@ -23,7 +23,7 @@ images:
     image_description:
     thumb_path:
   - image_path: /assets/images/52d471137d47d.jpg
-    image_title: Oranges and Lemons detail 3
+    image_title: detail 3
     image_description:
     thumb_path:
   - image_path: /assets/images/52d47133f39bb.jpg
