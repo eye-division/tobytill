@@ -65,7 +65,7 @@ images:
     image_title: The Hanged Man
     image_description: 25.4 x 14 cm
     thumb_path:
-  - image_path: /assets/images/13-death.jpg
+  - image_path: /assets/images/13-death-1.jpg
     image_title: Death
     image_description: 25.4 x 14 cm
     thumb_path:
