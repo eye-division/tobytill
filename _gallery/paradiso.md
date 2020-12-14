@@ -8,7 +8,7 @@ frontpage: true
 homepage_description_markdown: Paradiso is the last volume in Dante's trilogy
 frontpagetitle: Paradiso
 display_image: true
-main_image_path: /assets/images/paradise-flat-colour.jpg
+main_image_path: /assets/images/paradise-flat-colour-2.jpg
 main_image_caption:
 thumb_crop: true
 display_thumb_title: true
