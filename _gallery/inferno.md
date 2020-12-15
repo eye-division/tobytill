@@ -19,7 +19,7 @@ images:
     image_description:
     thumb_path:
   - image_path: /assets/images/5908f55cb8e4e.jpg
-    image_title: Inferno detail 3
+    image_title: detail 3
     image_description:
     thumb_path:
   - image_path: /assets/images/5908f79cc9df2.jpg
