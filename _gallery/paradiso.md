@@ -18,7 +18,7 @@ images:
     image_description:
     thumb_path:
   - image_path: /assets/images/7.jpg
-    image_title: Detail 2
+    image_title: detail 2
     image_description:
     thumb_path:
   - image_path: /assets/images/5.jpg
