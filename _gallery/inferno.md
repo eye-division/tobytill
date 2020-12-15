@@ -15,7 +15,7 @@ display_thumb_title: true
 display_image: true
 images:
   - image_path: /assets/images/5908f513b6ab6.jpg
-    image_title: Inferno detail 2
+    image_title: detail 2
     image_description:
     thumb_path:
   - image_path: /assets/images/5908f55cb8e4e.jpg
@@ -66,5 +66,4 @@ _comments:
   frontpage: Show this gallery on the homepage
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
----
-Inspired by Dante's "Divine Comedy", Tobias Till's "Inferno" is a satirical and humorous depiction of Hell set in contemporary London. This print has been launched by TAG Fine Arts at 2017 London Original Print Fair. For further information on the print, please contact TAG Fine Arts: info@tagfinearts.com
+---Inspired by Dante's "Divine Comedy", Tobias Till's "Inferno" is a satirical and humorous depiction of Hell set in contemporary London. This print has been launched by TAG Fine Arts at 2017 London Original Print Fair. For further information on the print, please contact TAG Fine Arts: info@tagfinearts.com
