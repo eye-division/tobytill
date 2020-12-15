@@ -26,14 +26,14 @@ images:
     image_title: detail 3
     image_description:
     thumb_path:
-  - image_path: /assets/images/ra-sqaure.jpg
-    image_title: Royal Academy Summer Exhibition
-    image_description:
-    thumb_path:
   - image_path: /assets/images/digital-web-image-flat.jpg
     image_title: detail 4
     image_description:
     thumb_path: /assets/images/inferno-thumbnail.jpg
+  - image_path: /assets/images/ra-sqaure.jpg
+    image_title: Royal Academy Summer Exhibition
+    image_description:
+    thumb_path:
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
