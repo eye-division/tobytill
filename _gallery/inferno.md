@@ -23,7 +23,7 @@ images:
     image_description:
     thumb_path:
   - image_path: /assets/images/5908f79cc9df2.jpg
-    image_title: Inferno detail
+    image_title: detail 3
     image_description:
     thumb_path:
   - image_path: /assets/images/ra-sqaure.jpg
