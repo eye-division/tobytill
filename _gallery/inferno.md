@@ -31,7 +31,7 @@ images:
     image_description:
     thumb_path:
   - image_path: /assets/images/digital-web-image-flat.jpg
-    image_title: Demo thumbnail
+    image_title: detail 4
     image_description:
     thumb_path: /assets/images/inferno-thumbnail.jpg
 _options:
