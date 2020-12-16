@@ -6,10 +6,6 @@ title: >-
 date: 2020-12-14 19:15:00
 main_image_path: /uploads/bruce-poole-news.jpg
 images:
-  - image_path: /uploads/bruce-poole-news-3.jpg
-    description:
-  - image_path: /uploads/lopf-2.jpg
-    description:
   - image_path: /uploads/lopf.jpg
     description:
 _options:
