@@ -7,7 +7,7 @@ frontpage: true
 frontpagetitle: New York
 gallery_date:
 permalink: /gallery/newyork/
-archive: false
+archive: true
 main_image_path: /assets/images/tobias-till-ny-test-print-proof.jpg
 main_image_caption: New York
 column: 3
@@ -67,3 +67,4 @@ _comments:
   lightbox: Show lightbox effect on thumbnails
   column: How many columns of thumbnails to show on large screens
 ---
+
