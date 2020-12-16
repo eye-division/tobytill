@@ -10,11 +10,11 @@ permalink: /gallery/london-a-z/
 archive: false
 main_image_path: /assets/images/4f08eaf0f0216.jpg
 main_image_caption: London A-Z - 28 x 24cm
-column: 2
+column: '3'
 thumb_crop: false
 display_thumb_title: true
 display_image: true
-lightbox: false
+lightbox: true
 images:
   - image_path: /assets/images/4f08eb2325655.jpg
     image_title: A - Albert Memorial
