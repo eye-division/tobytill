@@ -1,44 +1,44 @@
 ---
-title: "Prints"
+title: Archive
 display_title: true
 order_number: 4
-homepage_description_markdown: 
+homepage_description_markdown:
 frontpage: true
-frontpagetitle: "Prints"
+frontpagetitle: Prints
 gallery_date: 2016-05-01 00:00:00
-permalink: /gallery/prints/
+permalink: /gallery/archive/
 archive: false
-main_image_path: "/assets/images/4c61772903aba.jpg"
-main_image_caption: 
+main_image_path: /assets/images/4c61772903aba.jpg
+main_image_caption:
 column: 3
 thumb_crop: true
 display_thumb_title: true
 display_image: false
 lightbox: true
 images:
-  - image_path: "/assets/images/4c61772903aba.jpg"
-    image_title: "The Westway"
-    image_description: ""
+  - image_path: /assets/images/4c61772903aba.jpg
+    image_title: The Westway
+    image_description:
     thumb_path:
-  - image_path: "/assets/images/4b58e6ee353e9.jpg"
-    image_title: "London City Airport"
-    image_description: ""
+  - image_path: /assets/images/4b58e6ee353e9.jpg
+    image_title: London City Airport
+    image_description:
     thumb_path:
-  - image_path: "/assets/images/43ed0977e6280.jpg"
-    image_title: "Camden Lock"
-    image_description: "133 x 90cm"
+  - image_path: /assets/images/43ed0977e6280.jpg
+    image_title: Camden Lock
+    image_description: 133 x 90cm
     thumb_path:
-  - image_path: "/assets/images/4282331fb41f2.jpg"
-    image_title: "River Walk, San Antonio"
-    image_description: "90 x 115cm"
+  - image_path: /assets/images/4282331fb41f2.jpg
+    image_title: 'River Walk, San Antonio'
+    image_description: 90 x 115cm
     thumb_path:
-  - image_path: "/assets/images/43edb9d17eec8.jpg"
-    image_title: "Colossus, Thorpe Park"
-    image_description: "90 x 135cm"
+  - image_path: /assets/images/43edb9d17eec8.jpg
+    image_title: 'Colossus, Thorpe Park'
+    image_description: 90 x 135cm
     thumb_path:
-  - image_path: "/assets/images/4cdda369a35f7.jpg"
-    image_title: "London Bridges"
-    image_description: "139 x 38cm"
+  - image_path: /assets/images/4cdda369a35f7.jpg
+    image_title: London Bridges
+    image_description: 139 x 38cm
     thumb_path:
   - image_path: /assets/images/43e67f483ee2d.jpg
     image_title: North End Road Market
@@ -86,19 +86,19 @@ images:
     thumb_path:
 _options:
   image_path:
-    uploads_dir: "assets/images/:year"
+    uploads_dir: 'assets/images/:year'
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg
   main_image_path:
-    uploads_dir: "assets/images/:year"
+    uploads_dir: 'assets/images/:year'
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg
   content:
-    uploads_dir: "assets/:year"
+    uploads_dir: 'assets/:year'
 _comments:
   title: Gallery title
   order_number: Manually order the galleries
@@ -109,7 +109,7 @@ _comments:
   main_image_path: Image used to represent your gallery
   images: Add and edit your gallery images here
   image_description: Usually only shown in the image close up
-  image_path: Maximum 1200 pixels 
+  image_path: Maximum 1200 pixels
   thumb_path: Custom thumbnail image
   thumb_crop: Crop thumbnail images to a consistent size
   archive: Hide gallery from public view
@@ -119,3 +119,4 @@ _comments:
   lightbox: Show lightbox effect on thumbnails
   column: How many columns of thumbnails to show on large screens
 ---
+
