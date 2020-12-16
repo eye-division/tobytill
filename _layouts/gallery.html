@@ -56,23 +56,23 @@ layout: default
           <div class="gallery--box">
 
             {% if page.lightbox %}
-              <a href="{% include imgpath.html src=image %}" class="gallery--link" data-lightbox="gallery" data-title="{{ thisimage.image_title }}{% if thisimage.image_description %} - {{ thisimage.image_description }}{% endif %}">
+              <a href="{% include imgpath.html src=image max-w=1280 %}" class="gallery--link" data-lightbox="gallery" data-title="{{ thisimage.image_title }}{% if thisimage.image_description %} - {{ thisimage.image_description }}{% endif %}">
             {% endif %}
 
               <!-- 1. custom thumbnail -->
               {% if thisimage.thumb_path %}
 
-                {% include img.html src=thisimage.thumb_path width=200 height=200 fit=crop alt=thisimage.image_title %}
+                {% include img.html src=thisimage.thumb_path width=400 height=400 fit=crop alt=thisimage.image_title %}
               <!-- 2. cropped square images -->
 
               {% elsif page.thumb_crop %}
 
-                {% include img.html src=image width=200 height=200 fit=crop alt=thisimage.image_title %}
+                {% include img.html src=image width=400 height=400 fit=crop alt=thisimage.image_title %}
 
               <!-- 3. full format images -->
               {% else %}
 
-                {% include img.html src=image width=400 fit=clip alt=thisimage.image_title %}
+                {% include img.html src=image width=600 fit=clip alt=thisimage.image_title %}
 
               {% endif %}
 
