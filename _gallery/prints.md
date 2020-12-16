@@ -1,5 +1,6 @@
 ---
 title: "Prints"
+display_title: true
 order: 4
 description_markdown: 
 homepage_description_markdown: 
@@ -13,6 +14,7 @@ main_image_path: "/assets/images/4c61772903aba.jpg"
 thumb_crop: true
 display_thumb_title: true
 display_image: false
+lightbox: true
 images:
   - image_path: "/assets/images/4c61772903aba.jpg"
     image_title: "The Westway"

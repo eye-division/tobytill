@@ -1,17 +1,19 @@
 ---
 title: Major Arcana
-order: 3
 display_title: true
-permalink: /gallery/major-arcana/
-gallery_date:
-frontpage: true
+order: 3
 homepage_description_markdown: Major Arcana
+frontpage: true
 frontpagetitle: Major Arcana
-display_image: true
+gallery_date:
+permalink: /gallery/major-arcana/
+archive: false
 main_image_path: /assets/images/19-sun-1.jpg
 main_image_caption: The Sun
 thumb_crop: false
 display_thumb_title: true
+display_image: true
+lightbox: true
 images:
   - image_path: /assets/images/0-fool.jpg
     image_title: The Fool
@@ -101,7 +103,6 @@ images:
     image_title: The World
     image_description: 25.4 x 14 cm
     thumb_path:
-archive: false
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'

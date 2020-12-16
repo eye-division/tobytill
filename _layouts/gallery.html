@@ -19,7 +19,7 @@ layout: default
 
       {% if page.main_image_caption %} {% assign alt_text = page.main_image_caption %} {% endif %}
 
-      <a href="{% include imgpath.html src=page.main_image_path %}" class="galleryphoto" data-lightbox="gallery" data-title="{{ page.main_image_caption }}">
+      <a href="{% include imgpath.html src=page.main_image_path %}" data-lightbox="gallery" data-title="{{ page.main_image_caption }}" class="galleryphoto">
 
         {% include img.html src=page.main_image_path alt=alt_text %}
 
@@ -46,7 +46,9 @@ layout: default
 
           <div class="gallery--box">
 
-            <a href="{% include imgpath.html src=image %}" class="gallery--link" data-lightbox="gallery" data-title="{{ thisimage.image_title }}{% if thisimage.image_description %} - {{ thisimage.image_description }}{% endif %}">
+            {% if page.lightbox %}
+              <a href="{% include imgpath.html src=image %}" class="gallery--link" data-lightbox="gallery" data-title="{{ thisimage.image_title }}{% if thisimage.image_description %} - {{ thisimage.image_description }}{% endif %}">
+            {% endif %}
 
               <!-- 1. custom thumbnail -->
               {% if thisimage.thumb_path %}

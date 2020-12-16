@@ -2,22 +2,24 @@
 title: 
 display_title: true
 order:
-permalink:
-gallery_date: 
-frontpage: true
-homepage_description_markdown: 
+homepage_description_markdown:  
+frontpage: true 
 frontpagetitle: 
-display_image: false
+gallery_date:  
+permalink:
+archive: false 
 main_image_path:
 main_image_caption:
 thumb_crop: true
 display_thumb_title: true
+display_image: false
+lightbox: true
 images:
   - image_path:
     image_title:
     image_description:
     thumb_path:
-archive: false
+
 _options:
   image_path:
     uploads_dir: "assets/images/:year"

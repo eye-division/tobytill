@@ -1,16 +1,19 @@
 ---
 title: New York
 display_title: true
-permalink: /gallery/newyork/
-gallery_date:
-frontpage: true
+order: 6
 homepage_description_markdown: New York
+frontpage: true
 frontpagetitle: New York
-display_image: true
+gallery_date:
+permalink: /gallery/newyork/
+archive: false
 main_image_path: /assets/images/tobias-till-ny-test-print-proof.jpg
 main_image_caption: New York
 thumb_crop: true
 display_thumb_title: true
+display_image: true
+lightbox: true
 images:
   - image_path: /assets/images/detail-4.JPG
     image_title: detail 1
@@ -28,7 +31,6 @@ images:
     image_title: detail 4
     image_description:
     thumb_path:
-archive: false
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'

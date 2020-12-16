@@ -13,6 +13,7 @@ main_image_caption: Inferno - 180 x 130.5cm
 thumb_crop: true
 display_thumb_title: true
 display_image: true
+lightbox: true
 images:
   - image_path: /assets/images/5908f513b6ab6.jpg
     image_title: detail 2

@@ -1,5 +1,6 @@
 ---
 title: Oranges and Lemons
+display_title: true
 order: 3
 homepage_description_markdown:
 frontpage: true
@@ -7,12 +8,12 @@ frontpagetitle: Oranges and Lemons
 gallery_date: 2016-05-01 00:00:00
 permalink: /gallery/oranges-and-lemons/
 archive: false
-display_title: true
 main_image_path: /assets/images/img-5928.JPG
 main_image_caption: Oranges and Lemons - 225 x 107cm
 thumb_crop: true
 display_thumb_title: true
 display_image: true
+lightbox: true
 images:
   - image_path: /assets/images/52d470d24b8a1.jpg
     image_title: detail 1
