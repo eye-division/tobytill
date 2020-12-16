@@ -117,8 +117,8 @@ $navigation-submenu-width: 15em;
 
 $navigation-background: $white;
 $navigation-color: $dark-gray;
-$navigation-color-hover: $black;
-$navigation-active-link-color: $black;
+$navigation-color-hover: $action-hover-color;
+$navigation-active-link-color: $action-hover-color;
 
 // footer
 $footer-background: $white;

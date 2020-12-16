@@ -8,7 +8,7 @@ layout: default
   </header>
 
   {% if page.main_image_path %}
-    <figure>
+    <figure class="gallery--feature">
     {% assign alt_text = page.title %}
     {% if page.main_image_caption %} {% assign alt_text = page.main_image_caption %} {% endif %}
     {% include img.html src=page.main_image_path alt=alt_text %}

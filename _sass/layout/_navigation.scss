@@ -97,6 +97,9 @@ nav {
             text-decoration: none;
         }
     }
+    a.instagram:hover {
+        color: $instagram;
+    }
 
     &:last-child a {
         @include grid-media ($small) {
@@ -105,7 +108,7 @@ nav {
     }
     &.active a {
         a {
-            color: $action-hover-color
+            color: $navigation-active-link-color;
         }
     }
 }

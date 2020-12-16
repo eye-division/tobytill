@@ -161,6 +161,7 @@ social:
 
   - name: Instagram
     icon: fa-instagram
+    class: instagram
     username: tobias_till
     url: https://www.instagram.com/tobias_till
     desc: Follow me on Instagram
