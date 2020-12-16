@@ -7,7 +7,7 @@ frontpage: true
 frontpagetitle: New York
 gallery_date:
 permalink: /gallery/newyork/
-archive: true
+archive: false
 main_image_path: /assets/images/tobias-till-ny-test-print-proof.jpg
 main_image_caption: New York
 column: 3
