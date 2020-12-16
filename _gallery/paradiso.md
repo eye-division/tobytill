@@ -65,3 +65,5 @@ _comments:
 ---
 
 Inspired by Dante's "Divine Comedy", Tobias Till's "Paradiso" is a companion piece to "Inferno". This print was launched by [TAG Fine Arts](https://www.tagfinearts.com/artists/tobias-till/){: target="_blank" rel="noopener"} at 2019 [London Art Fai](https://www.londonartfair.co.uk/){: target="_blank" rel="noopener"}r. For further information on the print, please contact [TAG Fine Arts](https://www.tagfinearts.com/artists/tobias-till/){: target="_blank" rel="noopener"}\: info@tagfinearts.com.&nbsp;
+
+"Paradiso" and "Inferno" were shown on Grand Designs RIBA House of the Year 2019 in Silver Howe, designed by Hall+ Bednarczyk.
