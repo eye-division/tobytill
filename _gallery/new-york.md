@@ -1,7 +1,7 @@
 ---
 title: New York
 display_title: true
-order: 6
+order_number: 6
 homepage_description_markdown: New York
 frontpage: true
 frontpagetitle: New York
@@ -10,6 +10,7 @@ permalink: /gallery/newyork/
 archive: false
 main_image_path: /assets/images/tobias-till-ny-test-print-proof.jpg
 main_image_caption: New York
+column: 3
 thumb_crop: true
 display_thumb_title: true
 display_image: true
@@ -48,7 +49,7 @@ _options:
     uploads_dir: 'assets/:year'
 _comments:
   title: Gallery title
-  order: Manually order the galleries
+  order_number: Manually order the galleries
   permalink: Edit the web address here - letters and hyphen only
   display_image: Show featured image at the top of the gallery
   display_title: Show the title at the top of the gallery
@@ -63,4 +64,6 @@ _comments:
   frontpage: Show this gallery on the homepage
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
+  lightbox: Show lightbox effect on thumbnails
+  column: How many columns of thumbnails to show on large screens
 ---

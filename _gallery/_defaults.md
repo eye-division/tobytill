@@ -1,7 +1,7 @@
 ---
 title: 
 display_title: true
-order:
+order_number:
 homepage_description_markdown:  
 frontpage: true 
 frontpagetitle: 
@@ -10,6 +10,7 @@ permalink:
 archive: false 
 main_image_path:
 main_image_caption:
+column: 3
 thumb_crop: true
 display_thumb_title: true
 display_image: false
@@ -37,7 +38,7 @@ _options:
     uploads_dir: "assets/:year"
 _comments:
   title: Gallery title
-  order: Manually order the galleries
+  order_number: Manually order the galleries
   permalink: Edit the web address here - letters and hyphen only
   display_image: Show featured image at the top of the gallery
   display_title: Show the title at the top of the gallery
@@ -53,4 +54,6 @@ _comments:
   frontpage: Show this gallery on the homepage
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
+  lightbox: Show lightbox effect on thumbnails
+  column: How many columns of thumbnails to show on large screens
 ---
