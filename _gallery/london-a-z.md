@@ -161,7 +161,7 @@ _comments:
   main_image_path: Image used to represent your gallery
   images: Add and edit your gallery images here
   image_description: Usually only shown in the image close up
-  image_path: Maximum 1200 pixels 
+  image_path: Maximum 1200 pixels
   thumb_path: Custom thumbnail image
   thumb_crop: Crop thumbnail images to a consistent size
   archive: Hide gallery from public view
@@ -171,3 +171,5 @@ _comments:
   lightbox: Show lightbox effect on thumbnails
   column: How many columns of thumbnails to show on large screens
 ---
+
+Here's some test text from Alun on the London A-Z page to demonstrate adding text at the top of the gallery, above thumbnails
