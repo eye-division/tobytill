@@ -1,20 +1,20 @@
 ---
 - title: Home
   href: /
-- title: Paradiso
-  href: /gallery/paradiso/
 - title: Inferno
   href: /gallery/inferno/
+- title: Paradiso
+  href: /gallery/paradiso/
 - title: London A-Z
   href: /gallery/london-a-z/
 - title: Oranges & Lemons
   href: /gallery/oranges-and-lemons/
-- title: Archive
-  href: /gallery/archive/
 - title: New York
   href: /gallery/newyork/
 - title: Major Arcana
   href: /gallery/major-arcana/
+- title: Archive
+  href: /gallery/archive/
 - title: Biography
   href: /biography/
 - title: News
