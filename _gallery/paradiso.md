@@ -64,4 +64,4 @@ _comments:
   column: How many columns of thumbnails to show on large screens
 ---
 
-Inspired by Dante's "Divine Comedy", Tobias Till's "Paradiso" is a companion piece to "Inferno". This print was launched by [TAG Fine Arts](https://www.tagfinearts.com/artists/tobias-till/){: target="_blank" rel="noopener"} at 2019 London [Art Fair](https://www.tagfinearts.com/blogs/london-art-fair-2019/){: target="_blank" rel="noopener"}. For further information on the print, please contact [TAG Fine Arts](https://www.tagfinearts.com/artists/tobias-till/){: target="_blank" rel="noopener"}\: info@tagfinearts.com.&nbsp;
+Inspired by Dante's "Divine Comedy", Tobias Till's "Paradiso" is a companion piece to "Inferno". This print was launched by [TAG Fine Arts](https://www.tagfinearts.com/artists/tobias-till/){: target="_blank" rel="noopener"} at [2019 London](__notset__)[Art Fair](https://www.tagfinearts.com/blogs/london-art-fair-2019/){: target="_blank" rel="noopener"}. For further information on the print, please contact [TAG Fine Arts](https://www.tagfinearts.com/artists/tobias-till/){: target="_blank" rel="noopener"}\: info@tagfinearts.com.&nbsp;
