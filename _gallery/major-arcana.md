@@ -8,7 +8,7 @@ frontpagetitle: Major Arcana
 gallery_date:
 permalink: /gallery/major-arcana/
 archive: false
-main_image_path: /assets/images/19-sun-1.jpg
+main_image_path: /assets/images/19-sun-header.jpg
 main_image_caption: The Sun
 column: '4'
 thumb_crop: false
@@ -139,3 +139,4 @@ _comments:
   lightbox: Show lightbox effect on thumbnails
   column: How many columns of thumbnails to show on large screens
 ---
+
