@@ -10,7 +10,7 @@ permalink: /gallery/major-arcana/
 archive: false
 main_image_path: /assets/images/19-sun-1.jpg
 main_image_caption: The Sun
-column: 3
+column: '4'
 thumb_crop: false
 display_thumb_title: true
 display_image: true

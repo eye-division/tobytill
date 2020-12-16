@@ -44,7 +44,7 @@ layout: default
 
     {% if page.images[0].image_path %}
 
-    <section class="gallery--list">
+    <section class="gallery--list{% if page.column == '3' %} large{% endif %}">
 
       {% for thisimage in page.images %}
 
@@ -53,7 +53,7 @@ layout: default
           {% assign image = thisimage.image_path %}
         {% endif %}
 
-          <div class="gallery--box">
+          <div class=" gallery--box">
 
             {% if page.lightbox %}
               <a href="{% include imgpath.html src=image max-w=1280 %}" class="gallery--link" data-lightbox="gallery" data-title="{{ thisimage.image_title }}{% if thisimage.image_description %} - {{ thisimage.image_description }}{% endif %}">

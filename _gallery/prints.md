@@ -10,7 +10,7 @@ permalink: /gallery/archive/
 archive: false
 main_image_path: /assets/images/4c61772903aba.jpg
 main_image_caption:
-column: 3
+column: '4'
 thumb_crop: true
 display_thumb_title: true
 display_image: false

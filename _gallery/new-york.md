@@ -10,7 +10,7 @@ permalink: /gallery/newyork/
 archive: false
 main_image_path: /assets/images/tobias-till-ny-test-print-proof.jpg
 main_image_caption: New York
-column: 3
+column: '4'
 thumb_crop: true
 display_thumb_title: true
 display_image: true

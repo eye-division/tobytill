@@ -96,8 +96,8 @@ _options:
 
 _select_data:
     columns:
-        - 2
         - 3
+        - 4
 
 cloudcannon:
     data: true

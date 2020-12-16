@@ -10,7 +10,7 @@ permalink: /gallery/oranges-and-lemons/
 archive: false
 main_image_path: /assets/images/img-5928.JPG
 main_image_caption: Oranges and Lemons - 225 x 107cm
-column: 3
+column: '4'
 thumb_crop: true
 display_thumb_title: true
 display_image: true

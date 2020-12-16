@@ -10,7 +10,7 @@ permalink: /gallery/inferno/
 archive: false
 main_image_path: /uploads/digital-web-image-flat-downloaded.jpg
 main_image_caption: Inferno - 180 x 130.5cm
-column: 3
+column: '4'
 thumb_crop: true
 display_thumb_title: true
 display_image: true
