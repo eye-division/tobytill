@@ -29,8 +29,8 @@
           {% if social.url != null %}
 
           <li class="nav--link">
-            <a href="{{ social.url }}" title="{{ social.desc }}">
-              <svg class="icon {{ social.icon }} icon--light"><use xlink:href="#{{ social.icon }}" /></svg>
+            <a href="{{ social.url }}" title="{{ social.desc }}" class="{{ social.name }}">
+              <i class="fab {{ social.icon }} fa-2x"></i></svg>
             </a>
           </li>
           {% endif %}

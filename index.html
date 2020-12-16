@@ -8,6 +8,7 @@ carousel:
     caption: spray paint
     link:
 showcarousel: true
+showgalleries: false
 _options:
   image:
     width: 1200
@@ -18,11 +19,12 @@ _comments:
   carousel: Edit the slideshow
   link: Optional web link from the slide
   caption: optional caption
+  showgalleries: show thumbnail galleries on home page
 ---
 
-<div class="editable">
+  <div class="editable">
 
-    </div>
+  </div>
 
     {% if page.carousel and page.showcarousel %}
     <section>
@@ -34,9 +36,9 @@ _comments:
               {% if slides.link %}
                 <a href="{{ site.baseurl }}{{ slides.link }}" title="View project">
               {% endif %}
-              
+
               {% include img.html src=slides.image height=300 alt=slides.caption %}
-             
+
               {% if slides.link %}
                 </a>
               {% endif %}
@@ -50,7 +52,34 @@ _comments:
         </div>
 
       </section>
-      {% endif %}
 
-     
-</section>
+    {% endif %}
+
+    {% if page.showgalleries %}
+      <!-- now galleries -->
+      <div class="gallery">
+
+      <!-- order galleries by date -->
+      {% assign galleries = site.gallery | sort: 'gallery_date' | reverse %}
+
+      {% for gallery in galleries %}
+
+           <section class="gallery--cover {% if gallery.main_image_path %}has--cover{% endif %}" {% if gallery.main_image_path %}style="background-image: url({{ gallery.main_image_path | prepend: gallery.baseurl }});"{% endif %}>
+                <a href="{{ gallery.url }}">
+                  <div class="scrim {% if gallery.main_image_path %}has--cover{% endif %}">
+                  <article class="gallery--front">
+                    <header class="gallery--header">
+                      <h2 class="cover--title mb0">{{ gallery.title }}</h2>
+                    </header>
+                    {% if gallery.homepage_description_markdown %}
+                    {{ gallery.homepage_description_markdown | markdownify }}  <span class="post--readmore">View gallery <svg class="icon"><use xlink:href="#icon-double_angle_right" /></svg></span>
+                      {% endif %}
+                </article>
+                </div>
+              </a>
+            </section>
+
+      {% endfor %}
+      </div>
+
+    {% endif %}

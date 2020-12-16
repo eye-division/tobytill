@@ -33,6 +33,15 @@ layout: default
 
     {% endif %}
 
+    <section class="main--content">
+
+      {% if content %}
+
+        {{ content }}
+
+      {% endif %}
+    </section>
+
     {% if page.images[0].image_path %}
 
     <section class="gallery--list">
@@ -84,14 +93,7 @@ layout: default
 
     {% endif %}
 
-    <section class="main--content">
 
-      {% if content %}
-
-        {{ content }}
-
-      {% endif %}
-    </section>
 
     {% if page.videos %}
 
