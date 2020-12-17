@@ -36,6 +36,10 @@ images:
     image_title: London Evening Standard
     image_description:
     thumb_path:
+  - image_path: /assets/images/marcus-slider-ct-dec.jpg
+    image_title: Chef's Table at Marcus
+    image_description: A print is currently in the dining room at
+    thumb_path: /uploads/marcus-slider-ct-dec-sq.jpg
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
