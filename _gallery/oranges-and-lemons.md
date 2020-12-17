@@ -32,6 +32,10 @@ images:
     image_title: detail 4
     image_description: Oranges and Lemons
     thumb_path:
+  - image_path: /assets/images/evening-standard.jpg
+    image_title: London Evening Standard
+    image_description:
+    thumb_path:
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
@@ -66,3 +70,4 @@ _comments:
   lightbox: Show lightbox effect on thumbnails
   column: How many columns of thumbnails to show on large screens
 ---
+
