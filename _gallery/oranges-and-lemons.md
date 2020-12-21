@@ -2,7 +2,7 @@
 title: Oranges and Lemons
 display_title: true
 order_number: 3
-homepage_description_markdown:
+homepage_description_markdown: Some text here
 frontpage: true
 frontpagetitle: Oranges and Lemons
 gallery_date: 2016-05-01 00:00:00
@@ -74,4 +74,5 @@ _comments:
   lightbox: Show lightbox effect on thumbnails
   column: How many columns of thumbnails to show on large screens
 ---
+
 
