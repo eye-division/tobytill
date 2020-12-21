@@ -2,7 +2,7 @@
 title: Oranges and Lemons
 display_title: true
 order_number: 3
-homepage_description_markdown: Some text here
+homepage_description_markdown: Some text here blah blah blah
 frontpage: true
 frontpagetitle: Oranges and Lemons
 gallery_date: 2016-05-01 00:00:00
