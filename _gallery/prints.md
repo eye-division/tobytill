@@ -36,10 +36,10 @@ images:
     image_title: 'Colossus, Thorpe Park'
     image_description: 90 x 135cm
     thumb_path:
-  - image_path: /assets/images/4cdda369a35f7.jpg
+  - image_path: /assets/images/london-bridges.jpg
     image_title: London Bridges
     image_description: 139 x 38cm
-    thumb_path:
+    thumb_path: /uploads/london-bridges-thumbnail.jpg
   - image_path: /assets/images/north-end-road-market.jpg
     image_title: North End Road Market
     image_description: 45 x 80cm
