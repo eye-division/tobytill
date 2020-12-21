@@ -75,4 +75,4 @@ _comments:
   column: How many columns of thumbnails to show on large screens
 ---
 
-
+Blah blah blah
