@@ -29,10 +29,10 @@ images:
     image_description:
     thumb_path:
   - image_path: /assets/images/silver-howe.jpg
-    image_title: 'Grand Designs finalist, Silver Howe'
+    image_title: Grand Designs
     image_description: >-
-      Inferno and Paradiso hang together is Silver Howe, designed by Hall+
-      Bednarczyk
+      Inferno and Paradiso hang together in Grand Designs finalist house, Silver
+      Howe, designed by Hall+ Bednarczyk.
     thumb_path:
 _options:
   image_path:
