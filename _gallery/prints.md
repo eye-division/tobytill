@@ -40,10 +40,10 @@ images:
     image_title: London Bridges
     image_description: 139 x 38cm
     thumb_path:
-  - image_path: /assets/images/43e67f483ee2d.jpg
+  - image_path: /assets/images/north-end-road-market.jpg
     image_title: North End Road Market
     image_description: 45 x 80cm
-    thumb_path:
+    thumb_path: /uploads/north-end-road-market-thumbnail.jpg
   - image_path: /assets/images/43ed089ccac5a.jpg
     image_title: Cinema
     image_description: 60 x 80cm
