@@ -88,6 +88,10 @@ images:
     image_title: Test PNG
     image_description: Here's a test PNG!
     thumb_path:
+  - image_path: /assets/images/animated-snufkin.gif
+    image_title: Snufkin
+    image_description:
+    thumb_path:
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
