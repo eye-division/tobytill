@@ -104,6 +104,9 @@ images:
     image_title: The World
     image_description: 25.4 x 14 cm
     thumb_path:
+videos:
+  - youtube: 
+    description:
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
@@ -126,6 +129,7 @@ _comments:
   display_image: Show featured image at the top of the gallery
   display_title: Show the title at the top of the gallery
   display_thumb_title: Show titles with image thumbnails
+  youtube: Copy the unique video ID. It's the bit after https://youtu.be/ on the YouTube video Share link popup
   main_image_path: Image used to represent your gallery
   images: Add and edit your gallery images here
   image_description: Usually only shown in the image close up

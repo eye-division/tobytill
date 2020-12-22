@@ -98,8 +98,8 @@ layout: default
     {% if page.videos %}
 
       {% for video in page.videos %}
-        {% if video.videoid %}
-          {% include youtubeplayer.html id=video.videoid %}
+        {% if video.youtube %}
+          {% include youtubeplayer.html id=video.youtube %}
           {% if video.description %}
             <p class="description">{{ video.description }}</p>
           {% endif %}

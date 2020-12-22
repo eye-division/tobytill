@@ -103,6 +103,9 @@ _options:
     mime_type: 'image/jpeg,image/png,image/gif'
   content:
     uploads_dir: 'assets/:year'
+videos:
+  - youtube: 
+    description:
 _comments:
   title: Gallery title
   order_number: Manually order the galleries
@@ -121,6 +124,7 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
   lightbox: Show lightbox effect on thumbnails
+  youtube: Copy the unique video ID. It's the bit after https://youtu.be/ on the YouTube video Share link popup
   column: How many columns of thumbnails to show on large screens
 ---
 

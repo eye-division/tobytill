@@ -136,6 +136,9 @@ images:
     image_title:
     image_description:
     thumb_path:
+videos:
+  - youtube: 
+    description:
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
@@ -163,6 +166,7 @@ _comments:
   image_description: Usually only shown in the image close up
   image_path: Maximum 1200 pixels
   thumb_path: Custom thumbnail image
+  youtube: Copy the unique video ID. It's the bit after https://youtu.be/ on the YouTube video Share link popup
   thumb_crop: Crop thumbnail images to a consistent size
   archive: Hide gallery from public view
   frontpage: Show this gallery on the homepage
