@@ -84,19 +84,23 @@ images:
     image_title: Supermarket Checkout
     image_description:
     thumb_path:
+  - image_path: /assets/images/screenshot-2020-12-21-at-14-56-17.png
+    image_title: Test PNG
+    image_description: Here's a test PNG!
+    thumb_path:
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
     width: 1200
     height: 1200
     resize_style: contain
-    mime_type: image/jpeg,image/png,image/gif
+    mime_type: 'image/jpeg,image/png,image/gif'
   main_image_path:
     uploads_dir: 'assets/images/:year'
     width: 1200
     height: 1200
     resize_style: contain
-    mime_type: image/jpeg,image/png,image/gif
+    mime_type: 'image/jpeg,image/png,image/gif'
   content:
     uploads_dir: 'assets/:year'
 _comments:
