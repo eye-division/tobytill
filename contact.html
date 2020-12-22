@@ -62,9 +62,26 @@ _comments:
      <label for="message">Message</label>
       <textarea name="message" id="message"></textarea>
       </p>
+
       {% if site.recaptcha_site_key and jekyll.environment == 'production' %}
+
         <div class="g-recaptcha" data-sitekey="{{ site.recaptcha_site_key }}"></div>
+
+      {% else %}
+
+        <p>There will be a checkbox RECAPTCHA here when the site is live!</p>
+
       {% endif %}
+      {% if page.belowform_image_path %}
+        <figure class="text-center gallery--feature">
+          {% assign alt_text = page.title %}
+          {% if page.belowform_image_caption %} {% assign alt_text = page.belowform_image_caption %} {% endif %}
+          {% include img.html src=page.belowform_image_path alt=alt_text %}
+          {% if page.belowform_image_caption %}<figcaption>{{ alt_text }}</figcaption>{% endif %}
+        </figure>
+      {% endif %}
+
+
 
       <p>
         <input type="submit" value="Send message" />
@@ -76,14 +93,7 @@ _comments:
 
 {% endif %}
 
-{% if page.belowform_image_path %}
-    <figure class="text-center gallery--feature">
-      {% assign alt_text = page.title %}
-      {% if page.belowform_image_caption %} {% assign alt_text = page.belowform_image_caption %} {% endif %}
-      {% include img.html src=page.belowform_image_path alt=alt_text %}
-      {% if page.belowform_image_caption %}<figcaption>{{ alt_text }}</figcaption>{% endif %}
-    </figure>
-{% endif %}
+
 
 <div class="editable">
   <h2>Second editable bit here!</h2>
