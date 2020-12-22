@@ -84,14 +84,6 @@ images:
     image_title: Supermarket Checkout
     image_description:
     thumb_path:
-  - image_path: /assets/images/screenshot-2020-12-21-at-14-56-17.png
-    image_title: Test PNG
-    image_description: Here's a test PNG!
-    thumb_path:
-  - image_path: /assets/images/animated-snufkin.gif
-    image_title: Snufkin
-    image_description:
-    thumb_path:
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
@@ -108,7 +100,7 @@ _options:
   content:
     uploads_dir: 'assets/:year'
 videos:
-  - youtube: 
+  - youtube:
     description:
 _comments:
   title: Gallery title
@@ -128,7 +120,9 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
   lightbox: Show lightbox effect on thumbnails
-  youtube: Copy the unique video ID. It's the bit after https://youtu.be/ on the YouTube video Share link popup
+  youtube: >-
+    Copy the unique video ID. It's the bit after https://youtu.be/ on the
+    YouTube video Share link popup
   column: How many columns of thumbnails to show on large screens
 ---
 
