@@ -21,8 +21,8 @@ images:
     image_description:
     thumb_path:
 videos:
-  - youtube:
-    description:
+  - youtube: Q07GEJ145CY
+    description: Dream in White On White
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
