@@ -34,6 +34,9 @@ images:
       Inferno and Paradiso hang together in Grand Designs finalist house, Silver
       Howe, designed by Hall+ Bednarczyk.
     thumb_path:
+videos:
+  - youtube: 
+    description:
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
@@ -49,9 +52,6 @@ _options:
     mime_type: image/jpeg,image/png,image/gif
   content:
     uploads_dir: 'assets/:year'
-videos:
-  - youtube: 
-    description:
 _comments:
   title: Gallery title
   order_number: Manually order the galleries

@@ -92,6 +92,9 @@ images:
     image_title: Snufkin
     image_description:
     thumb_path:
+videos:
+  - youtube: 
+    description:
 _options:
   image_path:
     uploads_dir: 'assets/images/:year'
@@ -107,9 +110,6 @@ _options:
     mime_type: 'image/jpeg,image/png,image/gif'
   content:
     uploads_dir: 'assets/:year'
-videos:
-  - youtube: 
-    description:
 _comments:
   title: Gallery title
   order_number: Manually order the galleries
