@@ -4,10 +4,8 @@ title: 'BBC London - Robert Elms, Listed Londoner'
 date: 2015-01-06 00:00:00
 main_image_path: /uploads/untitled-2.jpg
 images:
-  - image_path: /uploads/robert-elms-2.jpg
-    description: |-
-      Interview  by Robert Elms as his "Listed Londoner"
-      link
+  - image_path:
+    description:
 _options:
   main_image_path:
     width: 1200
