@@ -18,7 +18,7 @@ Paradiso and Inferno both featured in the interior&nbsp; of Silver How, designed
 
 ![](/uploads/grand-designs-riba-house-of-the-year.png){: width="887" height="742"}
 
-<div><em>Silver How in Llanhennock, designed by&nbsp;</em>Hall+ Bednarczyk</div>
+<div><em>Silver How in Llanhennock, designed by&nbsp;</em>Hall+ Bednarczyk.</div>
 
 &nbsp;
 
