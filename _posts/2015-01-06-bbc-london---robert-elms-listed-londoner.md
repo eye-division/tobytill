@@ -14,4 +14,6 @@ _options:
     mime_type: image/jpeg
 ---
 
-[**Listen Again -&nbsp;**](__notset__)**[Robert Elms - Listed Londoner](https://www.bbc.co.uk/sounds/play/p02gdbkq){: target="_blank" rel="noopener"}**
+To listen to the full interview, click the link below:
+
+[**Listen Again - Listed Londoner, Tobias Till**](https://www.bbc.co.uk/sounds/play/p02gdbkq){: target="_blank" rel="noopener"}
