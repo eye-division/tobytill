@@ -146,6 +146,6 @@ _comments:
   column: How many columns of thumbnails to show on large screens
 ---
 
-Tarot playing cards date back to the 15th Century. Similar to the standard playing cards with four suits, the tarot pack has an additional trump suit of 21 cards and &nbsp;Fool. This series of trump cards is also known as the Major Arcana.&nbsp;
+Tarot playing cards date back to the 15th Century. Similar to the standard playing cards with four suits, the tarot pack has an additional trump suit of 21 cards and &nbsp;Fool. These trump cards are also known as the Major Arcana.&nbsp;
 
-This series of 22 prints takes a 21st Century take on the traditional imagery. The english and french titling references the famous Marseilles deck of cards that were designed in the 18th Century.
+This series of 22 prints is a 21st Century take on the traditional imagery. The english and french titling references the Marseilles deck of cards that were designed in the 18th Century which gained widespread popularity as a result of the invention of the printing press.
