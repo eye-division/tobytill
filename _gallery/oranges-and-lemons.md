@@ -42,7 +42,7 @@ images:
     thumb_path: /uploads/marcus-slider-ct-dec-sq.jpg
   - image_path: /uploads/robert-elms-2.jpg
     image_title: BBC London - Robert Elms. See News page for link to interview.
-    image_description:
+    image_description: blah blah blah
     thumb_path: /uploads/robert-elms-square.jpg
 videos:
   - youtube:
