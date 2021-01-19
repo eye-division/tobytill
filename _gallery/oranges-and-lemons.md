@@ -41,7 +41,7 @@ images:
     image_description: A print is currently in the dining room at
     thumb_path: /uploads/marcus-slider-ct-dec-sq.jpg
 videos:
-  - youtube: 
+  - youtube:
     description:
 _options:
   image_path:
@@ -49,13 +49,13 @@ _options:
     width: 1200
     height: 1200
     resize_style: contain
-    mime_type: image/jpeg,image/png,image/gif
+    mime_type: 'image/jpeg,image/png,image/gif'
   main_image_path:
     uploads_dir: 'assets/images/:year'
     width: 1200
     height: 1200
     resize_style: contain
-    mime_type: image/jpeg,image/png,image/gif
+    mime_type: 'image/jpeg,image/png,image/gif'
   content:
     uploads_dir: 'assets/:year'
 _comments:
@@ -73,10 +73,12 @@ _comments:
   archive: Hide gallery from public view
   frontpage: Show this gallery on the homepage
   frontpagetitle: Title for homepage display
-  youtube: Copy the unique video ID. It's the bit after https://youtu.be/ on the YouTube video Share link popup
+  youtube: >-
+    Copy the unique video ID. It's the bit after https://youtu.be/ on the
+    YouTube video Share link popup
   homepage_description_markdown: Text used on homepage if shown
   lightbox: Show lightbox effect on thumbnails
   column: How many columns of thumbnails to show on large screens
 ---
 
-Blah blah blah
+This is a historical map of London spans a timescale from Roman Londinium to the 2012 Olympics. The Oranges and Lemons title, not only plays on the famous nursery rhyme that refers to many London churches, but also to serves as a metaphor for the documentation of good and bad historical events.
