@@ -41,8 +41,8 @@ images:
     image_description: A print is currently in the dining room at
     thumb_path: /uploads/marcus-slider-ct-dec-sq.jpg
   - image_path: /uploads/robert-elms-2.jpg
-    image_title: BBC London - Robert Elms. See News page for interview
-    image_description: blah blah blah
+    image_title: BBC London - Robert Elms
+    image_description: See News page for interview
     thumb_path: /uploads/robert-elms-square.jpg
 videos:
   - youtube:
