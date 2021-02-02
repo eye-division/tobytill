@@ -18,3 +18,4 @@ _options:
     mime_type: image/jpeg
 ---
 
+Marcus Wareing's Chef's restaurant, The Berkeley, featured in Posh Hotels on Channel 5 with Sally Lindsey and Nigel Havers. A print of Oranges and Lemons hangs at the Chef's Table private dining room.&nbsp;
