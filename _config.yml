@@ -1,13 +1,17 @@
-# External gems
-gems:
-  - jekyll-sitemap
+# External gems - updated to plugins in jekyll v3.6
+plugins:
+ # - jekyll-archives # Sorry, not GitHub pages friendly!
+ # - jekyll-assets
+ # - autoprefixer-rails
+   - jekyll-seo-tag
+   - jekyll-sitemap
 
-exclude:
-  - "/vendor/"
+#exclude:
+#  - "/vendor/"
 
 # Site settings
 title: Tobias Till
-subtitle: Tobias Till Eye Gallery built on Bourbon and Neat
+subtitle:
 name: Tobias Till
 description: Tobias Till gallery site
 # Base URL of site (i.e. /blog). It should always start with a slash,
@@ -15,44 +19,94 @@ description: Tobias Till gallery site
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "http://www.tobias-till.co.uk"
+url: "https://www.tobias-till.co.uk"
 logo: "/siteicon.png"
-email: a.ward@eyedivision.com
+email: "ttprints@gmail.com"
 
 # Build settings
 markdown: kramdown
 # paginate: 5
 # paginate_path: "/page:num/"
 # inter_post_navigation: false
+highlightjs_theme: "monokai-sublime"
 permalink: pretty
 
 # Image CDN
 imagecdn:
-  #staging: "http://ed-dev.imgix.net"
-  #production: "http://ed.imgix.net"
+  staging: "https://ed-tobiastill-dev.imgix.net" #http://just-skunk.cloudvent.net
+  production: "https://ed-tobiastill.imgix.net"
 
-# Collections
+# Collections Example
 collections:
-#     projects:
-#         output: true
-#         permalink: /projects/:path/
-
+    gallery:
+        output: true
+        permalink: /gallery/:path/
+        #_hide_content: true
 
 # Defaults Example
 defaults:
-#     -
-#         scope:
-#             path: ""
-#             type: "projects"
-#         values:
-#             layout: "project"
+    -
+        scope:
+            path: ""
+            type: "gallery"
+        values:
+            layout: "gallery"
 
+# https://docs.cloudcannon.com/editing/options/
+_options:
+  _text:            # text =
+    link: true
+    bold: true
+    italic: true
+    removeformat: true
+  _block:           # block = editable blocks within pages
+    link: true
+    bold: true
+    italic: true
+    removeformat: true
+    left: align-left
+    center: center-this-text
+    right: align-right
+    justify: full-width-text
+    undo: true
+    redo: true
+    format: p h2 h3 h4 h5 h6 div
+    numberedlist: true
+    bulletedlist: true
+    blockquote: true
+    image: true
+    styles: /css/editor.scss
+  content:
+    link: true
+    bold: true
+    italic: true
+    removeformat: true
+    left: align-left
+    center: center-this-text
+    right: align-right
+    justify: full-width-text
+    undo: true
+    redo: true
+    format: p h2 h3 h4 h5 h6 div
+    numberedlist: true
+    bulletedlist: true
+    blockquote: true
+    image: true
+    styles: /css/editor.scss
+
+_select_data:
+    columns:
+        - 3
+        - 4
+
+cloudcannon:
+    data: true
 
 # Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+ga_tracking_id: "UA-16735011-2"
 
 # Google Recaptcha for contact form
-recaptcha_site_key: 6Lf8pSsUAAAAAJSRMhLIgCmP7urOtuPSIPi-hAMb
+recaptcha_site_key: "6Lf8pSsUAAAAAJSRMhLIgCmP7urOtuPSIPi-hAMb"
 
 # Social icons and sharing options
 #
@@ -71,14 +125,14 @@ recaptcha_site_key: 6Lf8pSsUAAAAAJSRMhLIgCmP7urOtuPSIPi-hAMb
 #     share: true                           # Include in the "Share" section of posts
 social:
   - name: Twitter
-    icon: twitter
+    icon: icon-twitter_sign
     username:
     url:
     desc: Follow us on Twitter
     share: true
 
   - name: Facebook
-    icon: facebook
+    icon: icon-facebook_sign
     username:
     url:
     desc: Like us on Facebook
@@ -91,11 +145,11 @@ social:
     desc: Fork us on GitHub
     share: false
 
-  - name: LinkedIn
-    icon: linkedin
+  - name: linkedin
+    icon: icon-linkedin_sign
     username:
     url:
-    desc: Connect with us on LinkedIn
+    desc: Connect with me on LinkedIn
     share: true
 
   - name: YouTube
@@ -106,14 +160,15 @@ social:
     share: false
 
   - name: Instagram
-    icon: instagram
-    username:
-    url:
+    icon: fa-instagram
+    class: instagram
+    username: tobias_till
+    url: https://www.instagram.com/tobias_till
     desc: Follow me on Instagram
     share: false
 
   - name: Pinterest
-    icon: pinterest
+    icon: icon-pinterest
     username:
     url:
     desc: Follow me on Pinterest

@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+// Lightbox2 edits
+// -----------------------------------------------------------------------------
+.lightboxOverlay {
+  //background-color: $lightbox-background;
+}
+.lb-dataContainer {
+  //background: $black;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 1em;
+  background-color: $lightbox-background;
+}
+
+.lb-data {
+
+  .lb-details {
+
+  }
+  .lb-close:before {
+    font-family: $heading-font-family;
+    font-size: 30px;
+    display: inline-block;
+    content: 'x';
+    color: $lightbox-color;
+    display: block;
+  }
+  .lb-close {
+    background: none;
+  }
+  .lb-caption {
+    font-weight: 400;
+    font-size: smaller;
+    color: $lightbox-color;
+    line-height: 1.6em;
+  }
+  .lb-number {
+    color: darken($lightbox-color,25%);
+    font-size: smaller;
+  }
+}

@@ -1,0 +1,47 @@
+---
+layout: page
+title: News
+main_image_path: /assets/images/banner-news-vs-4-1500.jpg
+main_image_caption:
+permalink: /news/
+posts_number: 6
+_options:
+  layout:
+    hidden: true
+  permalink:
+    hidden: true
+  image_path:
+    uploads_dir: 'assets/images/:year'
+    width: 1200
+    height: 1200
+    resize_style: contain
+    mime_type: 'image/jpeg,image/png,image/gif'
+  main_image_path:
+    uploads_dir: 'assets/images/:year'
+    width: 1200
+    height: 1200
+    resize_style: contain
+    mime_type: 'image/jpeg,image/png,image/gif'
+  content:
+    uploads_dir: 'assets/:year'
+_comments:
+  main_image_path: Image used to represent your page
+  homepage_description_markdown: Text used on homepage if shown
+  frontpagetitle: Alternative title for home page use
+  images: Add and edit images here
+  posts_number: Number of posts to show on this page
+---
+
+<section class="">
+
+  <ul class="posts--list">
+
+    {% for post in site.posts limit: posts_number %}
+
+      {% include post_excerpt.html %}
+
+    {% endfor %}
+
+  </ul>
+
+</section>

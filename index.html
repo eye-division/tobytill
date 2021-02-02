@@ -1,80 +1,85 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Tobias Till</title>
-<meta name="description" content="British printmaker Toby Till Tobias, Tobias Till" />
-<meta name="keywords" content="prints, printmaking, London paintings,city , lino prints, urban, toby till, London a-z, London alphabet,, Tobias Till" />
-<meta name="author" content="Eye Division" />
-<meta name="Copyright" content="Copyright (c) Tobias Till" />
+---
+layout: home
+carousel:
+  - image: /uploads/tt-cp--28-b.jpg
+    caption: Studio
+    link:
+  - image: /uploads/summer-spary-paint-inst-2b.jpg
+    caption: spray paint
+    link:
+showcarousel: true
+showgalleries: false
+_options:
+  image:
+    width: 1200
+    height: 1200
+    resize_style: contain
+    mime_type: image/jpeg,image/png,image/gif
+_comments:
+  carousel: Edit the slideshow
+  link: Optional web link from the slide
+  caption: optional caption
+  showgalleries: show thumbnail galleries on home page
+---
 
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
-<link rel="stylesheet" type="text/css" media="screen" href="css/basic.css" />
-<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
-		<style type="text/css" media="screen">
-	<!--
-		@import url("css/artist.css");
-	-->
-	</style>
+  <div class="editable">
 
-	        <link rel="stylesheet" href="css/theme-mini-light.css" />
-        <!--[if lt IE 8]>
-        <link rel="stylesheet" href="/css/anythingslider-ie.css" type="text/css" media="screen" />
-        <![endif]-->
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
-        <script src="code/jquery.anythingslider.min.js" type="text/javascript" charset="utf-8"></script>
-        <script type="text/javascript">
-        /* <![CDATA[ */
-        $(document).ready(function() {
-            $('#slider1').anythingSlider({
-                theme: 'mini-light',
-                easing: 'swing',
-                delay: 4000,
-                autoPlay: true,
-                startPanel: 1
-            });
-        });
-        /* ]]> */
-        </script>
-            <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-16735011-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-    </head>
-	<body>
-    <a name="top"></a>
-    <div id="container">
-        <div id="header" class="span-24">
-        <h1><a href="index.html" title="Return home" accesskey="1">Tobias Till</a></h1>
-        </div>
-    <div id="topnav" class="span-24"><a href="index.html" title="Return to the home page" accesskey="1">Home</a> |
-    <a href="thumbs.php%3Fcat=14.html" title="View 4 thumbnail images for Inferno">Inferno</a> | <a href="thumbs.php%3Fcat=10.html" title="View 28 thumbnail images for London A-Z Prints">London A-Z Prints</a> | <a href="thumbs.php%3Fcat=12.html" title="View 5 thumbnail images for Oranges & Lemons">Oranges & Lemons</a> | <a href="thumbs.php%3Fcat=2.html" title="View 6 thumbnail images for Prints">Prints</a> | <a href="thumbs.php%3Fcat=3.html" title="View 14 thumbnail images for Older Prints">Older Prints</a> | <a href="thumbs.php%3Fcat=9.html" title="News">News</a> | <a href="thumbs.php%3Fcat=7.html" title="Biography">Biography</a> | <a href="thumbs.php%3Fcat=5.html" title="View 2 thumbnail images for Contact">Contact</a></div><div class="span-22 prepend-top homepage last prepend-1 append-1">
-	<ul id="slider1">
-						<li><a href="index.html#"><img src="pictures/471dfeb604e95.jpg" alt="image" width="300" height="320"></a></li>
-								<li><a href="index.html#"><img src="pictures/4c61772903aba.jpg" alt="image" width="459" height="320"></a></li>
-								<li><a href="index.html#"><img src="pictures/52d4680d035dc.jpg" alt="image" width="346" height="320"></a></li>
-								<li><a href="index.html#"><img src="pictures/52d46c6e653c7.jpg" alt="image" width="336" height="320"></a></li>
-						</ul>
   </div>
-<div class="span-22 homepage prepend-1 append-1 prepend-top">
-	<p><font size="3"><font face="'Times New Roman'"><b> </b></font>
-<p style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt" class="MsoNoSpacing" align="center"><font face="'Times New Roman'"><b><br />
-</b></font></p>
-</font></p>	</div>
-	<div id="credits">&copy; All work is copyright the artist, no reproduction without permission.<br /><a href="http://www.eyedivision.com" title="An Eye Gallery system site" target="_blank"><img width="30" height="31" alt="an Eye Gallery site" src="images/eyegallery-box-trans.png"></a><br />
-	An <a href="http://www.eyedivision.com" title="Site by Eye Division" target="_blank">Eye Gallery</a> site</div>
 
-	</div><!-- end container -->
-	</body>
-	</html>
+    {% if page.carousel and page.showcarousel %}
+    <section>
+
+      <div class="flexslider">
+          <ul class="slides">
+            {% for slides in page.carousel %}
+            <li>
+              {% if slides.link %}
+                <a href="{{ site.baseurl }}{{ slides.link }}" title="View project">
+              {% endif %}
+
+              {% include img.html src=slides.image height=300 alt=slides.caption %}
+
+              {% if slides.link %}
+                </a>
+              {% endif %}
+
+              {% if slides.caption %}
+                <p class="flex-caption">{% if slides.link %}<a href="{{ site.baseurl }}{{ slides.link }}" title="View project">{% endif %}{{ slides.caption }}{% if slides.link %}&nbsp;<svg class="icon icon__white icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a>{% endif %}</p>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+
+    {% endif %}
+
+    {% if page.showgalleries %}
+      <!-- now galleries -->
+      <div class="gallery">
+
+      <!-- order galleries by date -->
+      {% assign galleries = site.gallery | sort: 'gallery_date' | reverse %}
+
+      {% for gallery in galleries %}
+
+           <section class="gallery--cover {% if gallery.main_image_path %}has--cover{% endif %}" {% if gallery.main_image_path %}style="background-image: url({{ gallery.main_image_path | prepend: gallery.baseurl }});"{% endif %}>
+                <a href="{{ gallery.url }}">
+                  <div class="scrim {% if gallery.main_image_path %}has--cover{% endif %}">
+                  <article class="gallery--front">
+                    <header class="gallery--header">
+                      <h2 class="cover--title mb0">{{ gallery.title }}</h2>
+                    </header>
+                    {% if gallery.homepage_description_markdown %}
+                    {{ gallery.homepage_description_markdown | markdownify }}  <span class="post--readmore">View gallery <svg class="icon"><use xlink:href="#icon-double_angle_right" /></svg></span>
+                      {% endif %}
+                </article>
+                </div>
+              </a>
+            </section>
+
+      {% endfor %}
+      </div>
+
+    {% endif %}

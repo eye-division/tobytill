@@ -1,0 +1,143 @@
+
+.navigation {
+    margin: 0;
+    padding: 1em 1em 0;
+    background-color: $white;
+    z-index: 99; // to cover over flexslider
+}
+/// Nav menu
+.navigation--wrapper {
+    position: relative;
+    background-color: $white;
+}
+
+/// small view
+.navigation--menu-button {
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+    //padding-top: 0.5em;
+    color: $navigation-color;
+    text-decoration: none;
+    .icon-menu {
+        fill : $navigation-color;
+    }
+    &:link {
+        color: $navigation-color;
+        text-decoration: none;
+    }
+    &:hover, &:active {
+        text-decoration: none;
+        color: tint($navigation-color,20%);
+        /// menu icon
+        .icon-menu {
+            fill : tint($navigation-color,20%);
+        }
+    }
+    @include grid-media ($small) {
+        display: none;
+    }
+}
+.menu--title {
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+nav {
+    @include grid-media ($small) {
+        //float: none;
+        //line-height: 1.5em;
+    }
+}
+
+.navigation--menu {
+    clear: both;
+    text-align: center;
+    display: none;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    width: 100%;
+    &.show {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    @include grid-media ($small) {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center; // space-around;
+    }
+
+}
+
+/// Nav items
+
+.nav--link {
+    display: block;
+    width: 100%;
+    padding: 0.25em 0;
+    @include grid-media ($small) {
+        background: transparent;
+        display: inline;
+        text-decoration: none;
+        width: auto;
+    }
+    a {
+        text-decoration: none;
+        color: $navigation-color;
+        display: inline-block;
+        @include grid-media ($small) {
+            padding-right: 1.5em;
+        }
+        &:hover {
+            color: $navigation-color-hover;
+            text-decoration: none;
+        }
+    }
+    a.instagram:hover {
+        color: $instagram;
+    }
+
+    &:last-child a {
+        @include grid-media ($small) {
+            padding-right: 1em;
+        }
+    }
+    &.active a {
+        a {
+            color: $navigation-active-link-color;
+        }
+    }
+}
+
+.navigation--social-menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center; // space-around;
+}
+.nav--social-media-link {
+    flex: 1 1 0;
+    @include grid-media ($small) {
+        flex: 0 1 auto;
+    }
+}
+
+li.active {
+    a {
+        color: $action-hover-color
+    }
+}
+
+.show--menu {
+  display: block;
+}
+
+/// layout things
+
+
+
+/// grid css navigation--menu ?? not required really

@@ -1,0 +1,24 @@
+
+.front {
+
+    .page--content {
+        @include grid-container;
+         @include grid-media ($small) {
+
+        }
+    }
+    .scrim {
+        padding: 20em 0 0 0;
+    }
+    .gallery--front {
+        padding: 0 1em 1em;
+    }
+
+}
+
+.home {
+    @include grid-media($large) { // half page width on 488px and above
+        @include grid-column(3);
+        padding-right: 60px;
+    }
+}
