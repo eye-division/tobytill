@@ -6,6 +6,10 @@ main_image_path: /uploads/poshhotels-1.jpg
 images:
   - image_path: /uploads/marcus-slider-ct-dec.jpg
     description: Marcus Wareing at The Berkley
+  - image_path: /uploads/posh-hotels-sall-and-nigel.jpg
+    description: >-
+      Marcus Wareing's Restaurant was the subject of Posh Hotels on Channel 5.
+      The restaurant features a copy of Oranges and Lemons
 _options:
   main_image_path:
     width: 1200
