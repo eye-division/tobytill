@@ -5,11 +5,11 @@ order_number: 6
 homepage_description_markdown: New York
 frontpage: true
 frontpagetitle: New York
-gallery_date:
+gallery_date: 2022-07-02 00:00:00
 permalink: /gallery/newyork/
 archive: false
 main_image_path: /assets/images/tobias-till-ny-test-print-proof.jpg
-main_image_caption: New York
+main_image_caption: New York - Tall Stories
 column: '4'
 thumb_crop: true
 display_thumb_title: true
@@ -33,23 +33,27 @@ images:
     image_description:
     thumb_path:
 videos:
-  - youtube: 
+  - youtube: https://www.youtube.com/watch?v=4EeZKumv5H0
+    description: New York - Tall Stories
+  - youtube:
+    description:
+  - youtube:
     description:
 _options:
   image_path:
-    uploads_dir: 'assets/images/:year'
+    uploads_dir: assets/images/:year
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg,image/png,image/gif
   main_image_path:
-    uploads_dir: 'assets/images/:year'
+    uploads_dir: assets/images/:year
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg,image/png,image/gif
   content:
-    uploads_dir: 'assets/:year'
+    uploads_dir: assets/:year
 _comments:
   title: Gallery title
   order_number: Manually order the galleries
@@ -66,7 +70,9 @@ _comments:
   archive: Hide gallery from public view
   frontpage: Show this gallery on the homepage
   frontpagetitle: Title for homepage display
-  youtube: Copy the unique video ID. It's the bit after https://youtu.be/ on the YouTube video Share link popup
+  youtube: >-
+    Copy the unique video ID. It's the bit after https://youtu.be/ on the
+    YouTube video Share link popup
   homepage_description_markdown: Text used on homepage if shown
   lightbox: Show lightbox effect on thumbnails
   column: How many columns of thumbnails to show on large screens
